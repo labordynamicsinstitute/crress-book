@@ -1,0 +1,40 @@
+project:
+  type: website
+
+website:
+  title: "CRRESS"
+  page-navigation: true
+  page-footer: "Copyright 2022, CRRESS"
+  reader-mode: true
+  search: true
+  navbar:
+    left:
+      - text: Home
+        file: index.qmd
+      - text: Events and News
+        file: events.qmd
+      - about.qmd
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Event 1"
+        contents:
+          - papers/event1/converted/paper1.qmd
+          - basics-knitr.qmd
+          - basics-jupyter.qmd
+      - section: "Event 2"
+        contents:
+          - papers/event1/converted/paper2.qmd
+
+
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
