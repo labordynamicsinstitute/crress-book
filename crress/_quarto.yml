@@ -26,10 +26,7 @@ website:
       - section: "Event 2"
         contents:
           - papers/event1/converted/paper2.qmd
-
-
-
-
+          
 format:
   html:
     theme: cosmo
