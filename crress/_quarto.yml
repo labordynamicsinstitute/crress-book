@@ -20,13 +20,12 @@ website:
     contents:
       - section: "Event 1"
         contents:
-          - papers/event1/converted/paper1.qmd
+          - works/event1/converted/paper1.qmd
           - basics-knitr.qmd
           - basics-jupyter.qmd
       - section: "Event 2"
         contents:
-          - papers/event1/converted/paper2.qmd
-          
+          - works/event1/converted/paper2.qmd
 format:
   html:
     theme: cosmo

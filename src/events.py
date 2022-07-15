@@ -54,5 +54,7 @@ def get_events():
         ))
     return event_list
 
-a = get_events()
+if __name__ == '__main__':
+
+    get_events()
 
