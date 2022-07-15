@@ -13,7 +13,7 @@ class Paper:
     main_file: Path
     
     def extension(self):
-        return self.main_file.suffix
+        return self.main_file.suffix.replace(".", '')
 
 @dataclass
 class Event:

@@ -1,13 +1,12 @@
 from data import Event, Paper
 from pathlib import Path
-import os
-import re
+import pypandoc
+import shutil
 
 root: Path = Path('crress/works')
-converted_folder: Path = Path('converted')
 
 latex_ignore = [
-    ".fdb_latexmk",
+    '.fdb_latexmk',
     '.gz',
     '.pdf',
     '.fls',
@@ -54,7 +53,27 @@ def get_events():
         ))
     return event_list
 
+def pandoc_convert(paper: Paper):
+    return pypandoc.convert_file(str(paper.main_file), 'gfm', format=paper.extension())
+
+class PandocConverter:
+    pass
+
+class JupytextConverter:
+    pass
+    
+
 if __name__ == '__main__':
 
-    get_events()
+    events = get_events()
+    
+    for event in events:
+        for paper in event.papers:
+            if paper.extension() in ['Rmd', 'rmd', 'md', 'qmd']:
+                src = paper.main_file
+                dest = event.path / 'converted' / paper.main_file.name
+                shutil.copy(src, dest)
+                continue
+            print(pandoc_convert(paper))
+    
 
