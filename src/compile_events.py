@@ -2,6 +2,7 @@ from data import Event, Paper
 from pathlib import Path
 import pypandoc
 import shutil
+import jupytext
 
 root: Path = Path('crress/works')
 
@@ -42,6 +43,8 @@ def get_events():
             papers.append(
                 Paper(
                     name=paper_folder.name,
+                    path=paper_folder,
+                    converted_path=paper_folder.parents[0] / 'converted' / paper_folder.name,
                     main_file=main_file,
                 )
             )
@@ -53,9 +56,24 @@ def get_events():
         ))
     return event_list
 
-def pandoc_convert(paper: Paper):
-    return pypandoc.convert_file(str(paper.main_file), 'gfm', format=paper.extension())
-
+def pandoc_convert(paper: Paper, fmt : str=None):
+    if fmt is None:
+        fmt=paper.extension()
+    new_main_file_path = paper.converted_path / paper.main_file.name
+    return pypandoc.convert_file(str(new_main_file_path), 
+                                 'markdown+yaml_metadata_block', 
+                                 outputfile=str(new_main_file_path.with_suffix('.qmd'))
+                                 )
+    
+def jupytext_convert(paper: Paper, fmt: str=None):
+    if fmt is None:
+        fmt = paper.extension()
+    new_main_file_path = paper.converted_path / paper.main_file.name
+    
+    notebook = jupytext.read(str(new_main_file_path))
+    
+    return jupytext.write(notebook, str(new_main_file_path.with_suffix('.qmd')), fmt='qmd')
+                          
 class PandocConverter:
     pass
 
@@ -69,11 +87,15 @@ if __name__ == '__main__':
     
     for event in events:
         for paper in event.papers:
-            if paper.extension() in ['Rmd', 'rmd', 'md', 'qmd']:
-                src = paper.main_file
-                dest = event.path / 'converted' / paper.main_file.name
-                shutil.copy(src, dest)
+            if paper.extension().lower() in ['qmd', 'rmd']:
+                shutil.copytree(paper.path, paper.converted_path, dirs_exist_ok=True)
                 continue
-            print(pandoc_convert(paper))
+            elif paper.extension().lower() in ['ipynb'] :
+                shutil.copytree(paper.path, paper.converted_path, dirs_exist_ok=True)
+                jupytext_convert(paper, fmt='qmd')
+            else:
+                shutil.copytree(paper.path, paper.converted_path, dirs_exist_ok=True)
+                pandoc_convert(paper, fmt='markdown+yaml_metadata_block')
+
     
 

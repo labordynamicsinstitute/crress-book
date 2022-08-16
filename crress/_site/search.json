@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "This is index from which we will talk about CRRESS and being people to other sites."
+  },
+  {
+    "objectID": "works/event1/converted/paper1/paper1.html",
+    "href": "works/event1/converted/paper1/paper1.html",
+    "title": "CRRESS",
+    "section": "",
+    "text": "This is heading 1\nThis is italic\nThis is bold-italic"
+  },
+  {
+    "objectID": "works/event1/converted/paper3/paper3.html",
+    "href": "works/event1/converted/paper3/paper3.html",
+    "title": "CRRESS",
+    "section": "",
+    "text": "This is heading 1\nThis is italic\nThis is bold-italic"
+  },
+  {
+    "objectID": "works/event2/converted/paper4/paper4.html",
+    "href": "works/event2/converted/paper4/paper4.html",
+    "title": "CRRESS",
+    "section": "",
+    "text": "This is text\n\n\nThis is italic\nThis is bold-italic\n\n\na = 1\nprint(a)\n\n1"
+  },
+  {
+    "objectID": "works/event2/converted/paper5/paper5.html",
+    "href": "works/event2/converted/paper5/paper5.html",
+    "title": "CRRESS",
+    "section": "",
+    "text": "This is heading 1\nThis is italic\nThis is bold-italic\n\n\n\nimage"
+  }
+]

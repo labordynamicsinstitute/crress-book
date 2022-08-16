@@ -1,5 +1,7 @@
 project:
   type: website
+  render:
+    - "*.qmd"
 
 website:
   title: "CRRESS"
@@ -20,17 +22,20 @@ website:
     contents:
       - section: "Event 1"
         contents:
-          - works/event1/converted/paper1.qmd
-          - basics-knitr.qmd
-          - basics-jupyter.qmd
+          - works/event1/converted/paper1/paper1.qmd
+          - works/event1/converted/paper2/paper2.qmd
+          - works/event1/converted/paper3/paper3.qmd
       - section: "Event 2"
         contents:
-          - works/event1/converted/paper2.qmd
+          - works/event2/converted/paper4/paper4.qmd
+          - works/event2/converted/paper5/paper5.qmd
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
 
+execute:
+  freeze: auto
 
 

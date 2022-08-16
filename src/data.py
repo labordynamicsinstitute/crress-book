@@ -10,10 +10,13 @@ class Paper:
     """Dataclass for a paper
     """
     name: str
+    path: Path
+    converted_path: Path
     main_file: Path
     
     def extension(self):
         return self.main_file.suffix.replace(".", '')
+    
 
 @dataclass
 class Event:
