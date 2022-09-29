@@ -1,44 +1,93 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "This is index from which we will talk about CRRESS and being people to other sites."
+    "text": "This is a Quarto website.\nThis is index from which we will talk about CRRESS and being people to other sites."
   },
   {
-    "objectID": "works/event1/converted/paper1/paper1.html",
-    "href": "works/event1/converted/paper1/paper1.html",
-    "title": "CRRESS",
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "2  Here are our events",
     "section": "",
-    "text": "This is heading 1\nThis is italic\nThis is bold-italic"
+    "text": "this si some text"
   },
   {
-    "objectID": "works/event1/converted/paper3/paper3.html",
-    "href": "works/event1/converted/paper3/paper3.html",
-    "title": "CRRESS",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "3  About",
     "section": "",
-    "text": "This is heading 1\nThis is italic\nThis is bold-italic"
+    "text": "About this site"
   },
   {
-    "objectID": "works/event2/converted/paper4/paper4.html",
-    "href": "works/event2/converted/paper4/paper4.html",
-    "title": "CRRESS",
+    "objectID": "sessions/session1/session1_intro.html",
+    "href": "sessions/session1/session1_intro.html",
+    "title": "Session 1 - Institutional support: Should journals verify reproducibility?",
     "section": "",
-    "text": "This is text\n\n\nThis is italic\nThis is bold-italic\n\n\na = 1\nprint(a)\n\n1"
+    "text": "Lorem ipsum dolor sit amet. Vel aliquid autem et deleniti deleniti qui labore vitae est soluta exercitationem est laborum culpa At numquam voluptas. Ab inventore sunt et ullam excepturi vel quod aspernatur aut consequatur voluptatum in modi perspiciatis. Eos repudiandae quod aut quia accusamus qui sunt deserunt sit officia ipsa eum soluta nesciunt qui voluptas velit ut quidem mollitia. Ea nostrum excepturi aut perspiciatis iusto qui porro adipisci.\nMolestiae facere aut voluptas beatae qui repudiandae iusto eos quibusdam culpa. Et nulla dolor in minima illo ad mollitia consequuntur eos odit ratione ut voluptatem eligendi ea unde ullam. Sed illo fuga eos doloremque deleniti ea mollitia voluptatibus nam officiis sint. Eos sunt molestias vel molestias alias id recusandae incidunt aut omnis culpa?\nAb minus consectetur ab eius quia non atque magnam est neque expedita aut voluptate asperiores in error consequatur et minima libero. Est deleniti voluptatem eos ratione reiciendis qui consequatur sunt et molestiae corrupti. Sit vitae quia ut suscipit necessitatibus et numquam nobis in nemo deserunt vel eius consequatur."
   },
   {
-    "objectID": "works/event2/converted/paper5/paper5.html",
-    "href": "works/event2/converted/paper5/paper5.html",
-    "title": "CRRESS",
+    "objectID": "sessions/session1/converted/paper1/paper1.html#more-of-my-thoughts",
+    "href": "sessions/session1/converted/paper1/paper1.html#more-of-my-thoughts",
+    "title": "4  Introduction",
+    "section": "4.1 More of my Thoughts",
+    "text": "4.1 More of my Thoughts\nEt officia dolorem aut deserunt odio est eligendi corporis eum nobis debitis id dolorum nihil ea maiores nostrum aut quas iusto.1 Est quidem voluptas adipisci consectetur et animi autem et similique voluptatem ab expedita error qui repudiandae eligendi quo magnam distinction (Alesina et al. 2003; Posner 2004).\n\n4.1.1 A Sub-thought\nEt alias beataec eum omnis rerum aut eligendi eligendi qui dolor voluptate a debitis recusandae! Id galisum facere et mollitia enim et fugiat fugiat et dicta dolorem est atque nemo nam sunt natus id repellendus dolorum (Alesina et al. 2003)."
+  },
+  {
+    "objectID": "sessions/session1/converted/paper1/paper1.html#references",
+    "href": "sessions/session1/converted/paper1/paper1.html#references",
+    "title": "4  Introduction",
+    "section": "4.2 References",
+    "text": "4.2 References\nAlesina, Alberto et al. 2003. “Fractionalization.” Journal of Economic growth 8(2): 155–94.\nPosner, Daniel N. 2004. “Measuring Ethnic Fractionalization in Africa.” American journal of political science 48(4): 849–63."
+  },
+  {
+    "objectID": "sessions/session1/converted/paper2/paper2.html#introduction",
+    "href": "sessions/session1/converted/paper2/paper2.html#introduction",
+    "title": "5  My Thoughts on this",
+    "section": "5.1 Introduction",
+    "text": "5.1 Introduction\nLorem ipsum dolor sit amet. Eum accusamus expedita id totam laborum ea debitis natus est molestiae accusamus et alias quis sed repellendus omnis ad blanditiis incidunt. Et corrupti omnis qui autem fugit id natus exercitationem non nobis sunt aut reiciendis dolorem ad laboriosam sint. Cum eaque doloremque aut voluptatem quam ex molestiae aliquam. Ex deserunt exercitationem sit reprehenderit blanditiis rem molestiae eveniet facilis quam non dolorum provident hic dolorem officia ex tempora sint. Est dolorum Quis aut esse modi aut quod molestias et illum quia provident omnis ut sunt dolor. Qui impedit totam qui nihil error et voluptate sint eum velit alias est commodi esse hic repudiandae error id aperiam officia.\n\n\n5.1.1 More of my Thoughts\nEt officia dolorem aut deserunt odio est eligendi corporis eum nobis debitis id dolorum nihil ea maiores nostrum aut quas iusto. Est quidem voluptas adipisci consectetur et animi autem et similique voluptatem ab expedita error qui repudiandae eligendi quo magnam distinction (posner_measuring_2004?; alesina_fractionalization_2003?) A Sub-thought\nEt alias beataec eum omnis rerum aut eligendi eligendi qui dolor voluptate a debitis recusandae! Id galisum facere et mollitia enim et fugiat fugiat et dicta dolorem est atque nemo nam sunt natus id repellendus dolorum.(alesina_fractionalization_2003?)\n\na <- 1\nprint(a)\n\n[1] 1"
+  },
+  {
+    "objectID": "sessions/session1/converted/paper2/paper2.html#references",
+    "href": "sessions/session1/converted/paper2/paper2.html#references",
+    "title": "5  My Thoughts on this",
+    "section": "5.2 References",
+    "text": "5.2 References"
+  },
+  {
+    "objectID": "sessions/session1/converted/paper3/paper3.html#references",
+    "href": "sessions/session1/converted/paper3/paper3.html#references",
+    "title": "6  Introduction",
+    "section": "6.1 References",
+    "text": "6.1 References"
+  },
+  {
+    "objectID": "sessions/session2/session2_intro.html",
+    "href": "sessions/session2/session2_intro.html",
+    "title": "Session 2 - Replication and IRB",
     "section": "",
-    "text": "This is heading 1\nThis is italic\nThis is bold-italic\n\n\n\nimage"
+    "text": "Lorem ipsum dolor sit amet. Vel aliquid autem et deleniti deleniti qui labore vitae est soluta exercitationem est laborum culpa At numquam voluptas. Ab inventore sunt et ullam excepturi vel quod aspernatur aut consequatur voluptatum in modi perspiciatis. Eos repudiandae quod aut quia accusamus qui sunt deserunt sit officia ipsa eum soluta nesciunt qui voluptas velit ut quidem mollitia. Ea nostrum excepturi aut perspiciatis iusto qui porro adipisci.\nMolestiae facere aut voluptas beatae qui repudiandae iusto eos quibusdam culpa. Et nulla dolor in minima illo ad mollitia consequuntur eos odit ratione ut voluptatem eligendi ea unde ullam. Sed illo fuga eos doloremque deleniti ea mollitia voluptatibus nam officiis sint. Eos sunt molestias vel molestias alias id recusandae incidunt aut omnis culpa?\nAb minus consectetur ab eius quia non atque magnam est neque expedita aut voluptate asperiores in error consequatur et minima libero. Est deleniti voluptatem eos ratione reiciendis qui consequatur sunt et molestiae corrupti. Sit vitae quia ut suscipit necessitatibus et numquam nobis in nemo deserunt vel eius consequatur."
+  },
+  {
+    "objectID": "sessions/session2/converted/paper4/paper4.html#this-is-heading-1",
+    "href": "sessions/session2/converted/paper4/paper4.html#this-is-heading-1",
+    "title": "7  Title",
+    "section": "7.1 This is Heading 1",
+    "text": "7.1 This is Heading 1\nThis is italic\nThis is bold-italic\n\n\na = 1\nprint(a)\n\n1"
+  },
+  {
+    "objectID": "sessions/session2/converted/paper5/paper5.html",
+    "href": "sessions/session2/converted/paper5/paper5.html",
+    "title": "8  Introduction",
+    "section": "",
+    "text": "References"
+  },
+  {
+    "objectID": "sessions/session2/converted/paper5/paper5.html#more-of-my-thoughts",
+    "href": "sessions/session2/converted/paper5/paper5.html#more-of-my-thoughts",
+    "title": "8  Introduction",
+    "section": "8.1 More of my Thoughts",
+    "text": "8.1 More of my Thoughts\nEt officia dolorem aut deserunt odio est eligendi corporis eum nobis debitis id dolorum nihil ea maiores nostrum aut quas iusto. Est quidem voluptas adipisci consectetur et animi autem et similique voluptatem ab expedita error qui repudiandae eligendi quo magnam distinction [@posner_measuring_2004; @alesina_fractionalization_2003]\nEt alias beataec eum omnis rerum aut eligendi eligendi qui dolor voluptate a debitis recusandae! Id galisum facere et mollitia enim et fugiat fugiat et dicta dolorem est atque nemo nam sunt natus id repellendus dolorum.[@alesina_fractionalization_2003]\n\n\n\nimage"
   }
 ]
