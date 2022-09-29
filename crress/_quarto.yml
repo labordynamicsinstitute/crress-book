@@ -1,40 +1,35 @@
 project:
-  type: website
+  type: book
   render:
     - "*.qmd"
 
-website:
+book:
   title: "CRRESS"
+  cover-image: "images/LDI Conf CRRESS V4.png"
   page-navigation: true
   page-footer: "Copyright 2022, CRRESS"
   reader-mode: true
   search: true
-  navbar:
-    left:
-      - text: Home
-        file: index.qmd
-      - text: Events and News
-        file: events.qmd
-      - about.qmd
-  sidebar:
-    style: "docked"
-    search: true
-    contents:
-      - section: "Event 1"
-        contents:
-          - works/event1/converted/paper1/paper1.qmd
-          - works/event1/converted/paper2/paper2.qmd
-          - works/event1/converted/paper3/paper3.qmd
-      - section: "Event 2"
-        contents:
-          - works/event2/converted/paper4/paper4.qmd
-          - works/event2/converted/paper5/paper5.qmd
+  chapters:
+    - index.qmd
+    - events.qmd
+    - about.qmd
+    - part: sessions/session1/session1_intro.qmd
+      chapters:
+        - sessions/session1/converted/paper1/paper1.qmd
+        - sessions/session1/converted/paper2/paper2.Rmd
+        - sessions/session1/converted/paper3/paper3.qmd
+    - part: sessions/session2/session2_intro.qmd
+      chapters:
+        - sessions/session2/converted/paper4/paper4.qmd
+        - sessions/session2/converted/paper5/paper5.qmd
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
-
+  pdf:
+    documentclass: scrreport
 execute:
   freeze: auto
 

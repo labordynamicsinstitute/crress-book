@@ -1,0 +1,16 @@
+{
+  "hash": "8e2f56214dad076ef0fa55c81d966beb",
+  "result": {
+    "markdown": "## Introduction\n\nLorem ipsum dolor sit amet. Eum accusamus expedita id totam laborum ea\ndebitis natus est molestiae accusamus et alias quis sed repellendus\nomnis ad blanditiis incidunt. Et corrupti omnis qui autem fugit id natus\nexercitationem non nobis sunt aut reiciendis dolorem ad laboriosam sint.\nCum eaque doloremque aut voluptatem quam ex molestiae aliquam. Ex\ndeserunt exercitationem sit reprehenderit blanditiis rem molestiae\neveniet facilis quam non dolorum provident hic dolorem officia ex\ntempora sint. Est dolorum Quis aut esse modi aut quod molestias et illum\nquia provident omnis ut sunt dolor. Qui impedit totam qui nihil error et\nvoluptate sint eum velit alias est commodi esse hic repudiandae error id\naperiam officia.\n\n![](figures/logo.pdf)\n\n### More of my Thoughts\n\nEt officia dolorem aut deserunt odio est eligendi corporis eum nobis\ndebitis id dolorum nihil ea maiores nostrum aut quas iusto. Est quidem\nvoluptas adipisci consectetur et animi autem et similique voluptatem ab\nexpedita error qui repudiandae eligendi quo magnam distinction\n[@posner_measuring_2004; @alesina_fractionalization_2003] A Sub-thought\n\nEt alias beataec eum omnis rerum aut eligendi eligendi qui dolor\nvoluptate a debitis recusandae! Id galisum facere et mollitia enim et\nfugiat fugiat et dicta dolorem est atque nemo nam sunt natus id\nrepellendus dolorum.[@alesina_fractionalization_2003]\n\n\n::: {.cell}\n\n```{.r .cell-code}\na <- 1\nprint(a)\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 1\n```\n:::\n:::\n\n\n## References\n",
+    "supporting": [
+      "paper3_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
