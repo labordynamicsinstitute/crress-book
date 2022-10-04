@@ -13,10 +13,13 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v2
-
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-
+      - name: Convert Files to Markdown
+        run: |
+          echo "Compiling and Converting Events"
+          cd src
+          python compile_events.py
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
