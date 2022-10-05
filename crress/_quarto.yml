@@ -5,6 +5,11 @@ project:
 
 book:
   title: "CRRESS"
+  navbar:
+    search: true
+    pinned: true
+    background: "#f8f8f8"
+  subtitle: Conference on Reproducibility and Replicability in Economics and the Social Sciences
   cover-image: "images/LDI Conf CRRESS V4.png"
   page-navigation: true
   page-footer: "Copyright 2022, CRRESS"
