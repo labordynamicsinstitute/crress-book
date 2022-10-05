@@ -18,6 +18,8 @@ jobs:
       #- name: Install R Dependencies
       #  run: |
       #    y | Rscript --vanilla src/install_packages.R
+      - name: Install Quarto Tex
+        run: quarto install tool tinytex
       - name: Install pandoc
         run: |
           mkdir Downloads && cd Downloads
