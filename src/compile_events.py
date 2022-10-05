@@ -103,7 +103,7 @@ if __name__ == '__main__':
                 jupytext_convert(paper, fmt='qmd')
             elif paper.extension().lower() in ['docx']:
                 pandoc_convert(paper, fmt='markdown+yaml_metadata_block', 
-                               extra_args=[f'--extract-media={paper.converted_path}', '--citeproc', '--reference-doc=custom-reference.docx'])
+                               extra_args=[f'--extract-media={paper.converted_path}', '--citeproc', '--reference-doc=src/custom-reference.docx'])
             else:
                 pandoc_convert(paper, fmt='markdown+yaml_metadata_block', 
                                extra_args=['--citeproc'])
