@@ -17,7 +17,7 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
       - name: Install R Dependencies
         run: |
-          Rscript --vanilla install_packages.R
+          Rscript --vanilla src/install_packages.R
       - name: Install Python Dependencies
         run: |
           python -m pip install --upgrade pip
