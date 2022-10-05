@@ -15,9 +15,9 @@ jobs:
         uses: actions/checkout@v2
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-      - name: Install R Dependencies
-        run: |
-          y | Rscript --vanilla src/install_packages.R
+      #- name: Install R Dependencies
+      #  run: |
+      #    y | Rscript --vanilla src/install_packages.R
       - name: Install Python Dependencies
         run: |
           python -m pip install --upgrade pip
