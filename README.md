@@ -1,4 +1,4 @@
-# quarto-crress-book
+# crress-book
 
 
 This is repo that compiles the book for the [CRRESS](https://labordynamicsinstitute.github.io/crress/) webinar series.
