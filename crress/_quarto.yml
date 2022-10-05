@@ -5,6 +5,9 @@ project:
 
 book:
   title: "CRRESS"
+  repo-url: https://github.com/amichuda/crress-book
+  repo-actions: [edit]
+  downloads: [pdf]
   navbar:
     search: true
     pinned: true
