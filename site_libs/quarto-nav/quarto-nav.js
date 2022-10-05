@@ -152,7 +152,7 @@ window.document.addEventListener("DOMContentLoaded", function () {
   const headerEl = window.document.querySelector("header.fixed-top");
   if (headerEl && window.ResizeObserver) {
     const observer = new window.ResizeObserver(
-      updateDocumentOffsetWithoutAnimation
+      throttle(updateDocumentOffsetWithoutAnimation, 50)
     );
     observer.observe(headerEl, {
       attributes: true,
