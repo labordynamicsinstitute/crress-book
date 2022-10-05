@@ -12,7 +12,12 @@ book:
   subtitle: Conference on Reproducibility and Replicability in Economics and the Social Sciences
   cover-image: "images/LDI Conf CRRESS V4.png"
   page-navigation: true
-  page-footer: "Copyright 2022, CRRESS"
+  page-footer: 
+    background: "#f8f8f8"
+    left: "Copyright 2022, CRRESS"
+    right:
+      - icon: github
+        href: https://github.com/amichuda/crress-book/edit/main
   reader-mode: true
   search: true
   chapters:
