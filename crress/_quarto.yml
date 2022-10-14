@@ -38,7 +38,7 @@ book:
         - sessions/session2/converted/paper5/paper5.qmd
 format:
   html:
-    theme: cosmo
+    theme: sandstone
     css: styles.css
     toc: true
   pdf:
