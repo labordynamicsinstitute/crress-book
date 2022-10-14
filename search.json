@@ -4,21 +4,21 @@
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "This is a Quarto website.\nThis is index from which we will talk about CRRESS and being people to other sites."
+    "text": "The Conference on Reproducibility and Replicability in Economics and the Social Sciences is a series of virtual and in-person panels on the topics of reproducibility, replicability, and transparency in the social sciences. The purpose of scientific publishing is the dissemination of robust research findings, exposing them to the scrutiny of peers and other interested parties. Scientific articles should accurately and completely provide information on the origin and provenance of data and on the analytical and computational methods used. Yet in recent years, doubts about the adequacy of the information provided in scientific articles and their addenda have been voiced. The conferences will address the following topics: the initiation of research, the conduct of research, the preparation of research for publication, and the scrutiny after publication. Undergraduates, graduate students, and career researchers will be able to learn about best practices for transparent, reproducible, and scientifically sound research in the social sciences."
   },
   {
     "objectID": "events.html",
     "href": "events.html",
-    "title": "2  Here are our events",
+    "title": "2  Upcoming and Past Events",
     "section": "",
-    "text": "this si some text"
+    "text": "Upcoming and past webinars can be found here"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "3  About",
+    "title": "3  Contact Us",
     "section": "",
-    "text": "About this site"
+    "text": "CRRESS is managed by co-PIs Lars Vilhuber and Aleksandr Michuda (Cornell University).\nThe organizing committee is composed of Vilhuber, Michuda, Ian Schmutte (UGA), and Marie Connolly (UQAM).\nSupport is provided by Sara Brooks (Cornell University) as well as the staff at the Cornell University ILR School."
   },
   {
     "objectID": "sessions/session1/session1_intro.html",
