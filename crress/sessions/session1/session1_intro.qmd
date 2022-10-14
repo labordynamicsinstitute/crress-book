@@ -4,7 +4,7 @@ Different journals have different approaches towards enforcement of their data a
 
 In this webinar, held on September 27th, 2022, and moderated by Lars Vilhuber, we had three panelists who are experts on this topic: 
 
-    1. Guido Imbens, Professor of Economics at the School of Humanities and Sciences; Senior Fellow at the Stanford Institute for Economic Policy Research; Coulter Family Faculty Fellow at Stanford University, and editor of Econometrica,
-    2. Tim Salmon, Professor of Economics at Southern Methodist University and the editor of Economic Inquiry, and 
-    3. Toni Whited, Dale L. Dykema Professor of Business Administration at the Ross School of Business at the University of Michigan and editor-in-chief at the Journal of Financial Economics.
+1. Guido Imbens, Professor of Economics at the School of Humanities and Sciences; Senior Fellow at the Stanford Institute for Economic Policy Research; Coulter Family Faculty Fellow at Stanford University, and editor of Econometrica,
+2. Tim Salmon, Professor of Economics at Southern Methodist University and the editor of Economic Inquiry, and 
+3. Toni Whited, Dale L. Dykema Professor of Business Administration at the Ross School of Business at the University of Michigan and editor-in-chief at the Journal of Financial Economics.
 
