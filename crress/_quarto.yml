@@ -29,7 +29,7 @@ book:
     - about.qmd
     - part: sessions/session1/session1_intro.qmd
       chapters:
-        - sessions/session1/converted/paper1/paper1.qmd
+        - sessions/session1/converted/tim_salmon/tim_salmon.qmd
         - sessions/session1/converted/paper2/paper2.qmd
         - sessions/session1/converted/paper3/paper3.qmd
     - part: sessions/session2/session2_intro.qmd
