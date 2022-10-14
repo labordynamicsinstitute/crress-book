@@ -1,3 +1,4 @@
-# Here are our events
+# Upcoming and Past Events
 
-this si some text
+Upcoming and past webinars can be found [here](https://labordynamicsinstitute.github.io/crress/#projects)
+
