@@ -1,5 +1,11 @@
 ---
-title: "About"
+title: "Contact Us"
 ---
 
-About this site
+For more information, or if you are a presenter and have questions, please [contact us](mailto:am2497@cornell.edu).
+
+CRRESS is managed by co-PIs **Lars Vilhuber and Aleksandr Michuda** (Cornell University). 
+
+The organizing committee is composed of **Vilhuber, Michuda, Ian Schmutte (UGA), and Marie Connolly (UQAM)**. 
+
+Support is provided by Sara Brooks (Cornell University) as well as the staff at the Cornell University ILR School.
