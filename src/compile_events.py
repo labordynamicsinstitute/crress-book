@@ -3,8 +3,11 @@ from pathlib import Path
 import pypandoc
 import shutil
 import jupytext
+import bibtexparser
+from typing import Tuple
 
 root: Path = Path('crress/sessions')
+
 
 latex_ignore = [
     '.fdb_latexmk',
@@ -22,6 +25,12 @@ other_ignore = [
 main_file_dict = {
     
 }
+
+def glob_multiple(path: Path, extensions: Tuple[str]):
+    all_files = []
+    for ext in extensions:
+        all_files.extend(Path(path).glob(ext))
+    return all_files
 
 def get_events():
     
@@ -88,6 +97,21 @@ def jupytext_convert(paper: Paper, fmt: str=None):
     notebook = jupytext.read(str(new_main_file_path))
     
     return jupytext.write(notebook, str(new_main_file_path.with_suffix('.qmd')), fmt='qmd')
+
+def parse_bibtex(paper: Paper):
+    # Get bib files from converted path
+    bibs = glob_multiple(paper.converted_path, ("*.bib", '*.bibtex'))
+    
+    if bibs is not None:
+        if len(bibs) > 1:
+            raise Exception("Found more than one bib file, please check...")
+        print(f"Found {bibs} bib file!")
+        
+    bib = bibs[0]
+    
+    return bibtexparser.loads(bib.read_text())
+    
+
     
 
 if __name__ == '__main__':
@@ -96,7 +120,10 @@ if __name__ == '__main__':
     
     for event in events:
         for paper in event.papers:
+            # create new directory for converted files
             shutil.copytree(paper.path, paper.converted_path, dirs_exist_ok=True)
+            
+            # Handle conversion
             if paper.extension().lower() in ['qmd', 'rmd']:
                 continue
             elif paper.extension().lower() in ['ipynb'] :
@@ -110,6 +137,9 @@ if __name__ == '__main__':
             else:
                 pandoc_convert(paper, fmt='markdown+yaml_metadata_block', 
                                extra_args=['--citeproc'])
+                
+            # Now handle the bibtex parsing
+            bib_parsed = parse_bibtex(paper)
 
-    
+            
 
