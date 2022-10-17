@@ -28,7 +28,7 @@ jobs:
       - name: Install Python Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pypandoc jupytext
+          pip install pypandoc jupytext bibtexparser
       - name: Convert Files to Markdown
         run: |
           echo "Compiling and Converting Events"
