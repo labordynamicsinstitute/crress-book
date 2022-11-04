@@ -38,8 +38,10 @@ def get_events():
     
     for directory in root.glob("[!.]*"): # Don't include hidden files
         papers = []
-        for paper_folder in directory.glob("[!.][!converted]*"):
-            
+        # further filter the paper folder to get rid of converted folder and intro file
+        directory_glob = [path for path in directory.glob("[!.]*") if path.stem not in ['converted', f"{directory.stem}_intro"]]
+        for paper_folder in directory_glob:
+
             # try the dict first
             main_file = main_file_dict.get(directory.name)
             if main_file is not None:
@@ -102,14 +104,16 @@ def parse_bibtex(paper: Paper):
     # Get bib files from converted path
     bibs = glob_multiple(paper.converted_path, ("*.bib", '*.bibtex'))
     
-    if bibs is not None:
+    if bibs:
         if len(bibs) > 1:
             raise Exception("Found more than one bib file, please check...")
         print(f"Found {bibs} bib file!")
-        
-    bib = bibs[0]
+        bib = bibs[0]
     
-    return bibtexparser.loads(bib.read_text())
+        return bibtexparser.loads(bib.read_text())
+    else:
+        print(f"No bib found in {paper.path}")
+        return 
     
 
     
@@ -134,6 +138,13 @@ if __name__ == '__main__':
                                            '--citeproc', 
                                            '--reference-doc=src/custom-reference.docx',
                                            '--standalone'])
+            elif paper.extension().lower() in ['tex']:
+                pandoc_convert(paper, fmt='markdown+yaml_metadata_block', 
+                               extra_args=[f'--extract-media={paper.converted_path}', 
+                                           '--citeproc', 
+                                           '--reference-doc=src/custom-reference.docx',
+                                           '--standalone',
+                                           '--shift-heading-level-by=1'])
             else:
                 pandoc_convert(paper, fmt='markdown+yaml_metadata_block', 
                                extra_args=['--citeproc'])
