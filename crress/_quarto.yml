@@ -30,8 +30,7 @@ book:
     - part: sessions/session1/session1_intro.qmd
       chapters:
         - sessions/session1/converted/tim_salmon/tim_salmon.qmd
-        - sessions/session1/converted/paper2/paper2.qmd
-        - sessions/session1/converted/paper3/paper3.qmd
+        - sessions/session1/converted/toni_whited/toni_whited.tex
     - part: sessions/session2/session2_intro.qmd
       chapters:
         - sessions/session2/converted/paper4/paper4.qmd
