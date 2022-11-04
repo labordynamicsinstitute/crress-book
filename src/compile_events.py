@@ -15,7 +15,8 @@ latex_ignore = [
     '.pdf',
     '.fls',
     '.log',
-    '.aux'
+    '.aux',
+    '.out'
 ]
 
 other_ignore = [
