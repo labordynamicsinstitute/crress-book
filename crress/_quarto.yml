@@ -37,7 +37,7 @@ book:
         - sessions/session2/converted/paper5/paper5.qmd
     - part: sessions/session3/session3_intro.qmd
       chapters:
-        - sessions/session3/converted/mendez_carbajo.qmd
+        - sessions/session3/converted/mendez_carbajo/mendez_carbajo.qmd
 format:
   html:
     theme: sandstone
