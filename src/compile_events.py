@@ -5,8 +5,6 @@ import shutil
 import jupytext
 import bibtexparser
 from typing import Tuple
-import os
-os.environ.setdefault('PYPANDOC_PANDOC', '/Applications/quarto/bin/tools/pandoc')
 
 root: Path = Path('crress/sessions')
 
