@@ -1,0 +1,4 @@
+# Session 3 - Should teaching reproducibility be a part of undergraduate education or curriculum? 
+
+This session was held at the Southern Economics Association meeting on November 20th, 2020. Panelists discussed teaching reproducibility (TIER Protocol), the involvement of undergraduates for replications based on restricted-access data, and other topics. 
+
