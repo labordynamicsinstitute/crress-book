@@ -41,8 +41,9 @@ book:
 format:
   html:
     theme: sandstone
-    css: styles.css
+    # css: styles.css
     toc: true
+    number-sections: false
   pdf:
     documentclass: scrreport
 execute:

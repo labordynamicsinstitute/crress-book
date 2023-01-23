@@ -5,6 +5,8 @@ import shutil
 import jupytext
 import bibtexparser
 from typing import Tuple
+import os
+os.environ.setdefault('PYPANDOC_PANDOC', '/Applications/quarto/bin/tools/pandoc')
 
 root: Path = Path('crress/sessions')
 
@@ -56,6 +58,11 @@ def get_events():
                 if len(non_dir) == 1:
                     print(f"assuming that main file for {paper_folder} in {directory} is {non_dir[0].name}")
                     main_file = non_dir[0]
+                elif len(non_dir) > 1:
+                    print("More than one file in the directory. Choosing file with same name as parent")
+                    for i in non_dir:
+                        if i.stem == i.parent.stem:
+                            main_file = i
                 else:
                     raise Exception("Can't find main file")
                 

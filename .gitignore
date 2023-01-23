@@ -3,7 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 converted/
-
+_book/
 .DS_Store
 
 _site/
