@@ -157,6 +157,23 @@ if __name__ == '__main__':
                 
             # Now handle the bibtex parsing
             bib_parsed = parse_bibtex(paper)
+            
+            # If media folder exists, then change media paths in qmd files to relative paths
+            if (paper.converted_path / 'media/').is_dir():
+                print(f"found media folder in {paper.converted_path}")
+                
+                f = open((paper.converted_path / paper.name).with_suffix(".qmd"), 'r')
+                contents = f.readlines()
+                f.close()
+                
+                for i, line in enumerate(contents):
+                    if str(paper.converted_path) + '/' in line:
+                        contents[i] = line.replace(str(paper.converted_path) + '/', '')
+                        
+                with open((paper.converted_path / paper.name).with_suffix(".qmd"), 'w') as f:
+                    f.writelines(contents)
+                        
+                
 
             
 
