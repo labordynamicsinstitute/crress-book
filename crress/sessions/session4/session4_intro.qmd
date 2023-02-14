@@ -1,0 +1,3 @@
+# Session 4: Reproducibility and confidential or proprietary data: can it be done?
+
+What happens to reproducibility when data are confidential or proprietary? Many journals can only ask that detailed access procedures be provided in a ReadMe file, but what mechanisms could be used to conduct computational reproducibility checks on such data? Should authors temporarily share their data with the journal for the purposes of reproducibility verification, even if they are not part of the public data replication package? Is it feasible to use a network of "insiders" to run code provided as part of a data replication package to assess reproducibility? Could a "certified run" be used?

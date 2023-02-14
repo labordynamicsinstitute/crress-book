@@ -38,6 +38,9 @@ book:
     - part: sessions/session3/session3_intro.qmd
       chapters:
         - sessions/session3/converted/mendez_carbajo/mendez_carbajo.qmd
+    - part: sessions/session4/session4_intro.qmd
+      chapters:
+        - sessions/session4/converted/guimaraes/guimaraes.qmd
 format:
   html:
     theme: sandstone
