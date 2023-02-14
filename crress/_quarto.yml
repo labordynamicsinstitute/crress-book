@@ -11,17 +11,18 @@ book:
   navbar:
     search: true
     pinned: true
-    background: "#f8f8f8"
+    logo: "images/LDI Conf CRRESS V4.png"
+    # background: "#f8f8f8"
   subtitle: Conference on Reproducibility and Replicability in Economics and the Social Sciences
   cover-image: "images/LDI Conf CRRESS V4.png"
   page-navigation: true
   page-footer: 
-    background: "#f8f8f8"
+    # background: "#f8f8f8"
     left: "Copyright 2022, CRRESS"
     right:
       - icon: github
         href: https://github.com/amichuda/crress-book/
-  reader-mode: true
+  # reader-mode: true
   search: true
   chapters:
     - index.qmd
@@ -42,7 +43,9 @@ book:
         - sessions/session4/converted/guimaraes/guimaraes.qmd
 format:
   html:
-    theme: sandstone
+    theme: 
+      light: minty
+      dark: darkly
     # css: styles.css
     toc: true
     number-sections: false
