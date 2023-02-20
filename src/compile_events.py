@@ -5,8 +5,16 @@ import shutil
 import jupytext
 import bibtexparser
 from typing import Tuple
+import frontmatter
+import yaml
+import requests
+import io
+
+from extra_authors import extra_authors
 
 root: Path = Path('crress/sessions')
+
+CRRESS_WEBSITE_CONFIG = "https://raw.githubusercontent.com/labordynamicsinstitute/crress/main/_config.yml"
 
 
 latex_ignore = [
@@ -120,7 +128,11 @@ def parse_bibtex(paper: Paper):
     else:
         print(f"No bib found in {paper.path}")
         return 
-    
+
+def get_panelist(panelist_list, key):
+    for d in panelist_list:
+        if d['tag'] == key:
+            return d
 
     
 
@@ -158,11 +170,14 @@ if __name__ == '__main__':
             # Now handle the bibtex parsing
             bib_parsed = parse_bibtex(paper)
             
+            fname = (paper.converted_path / paper.name).with_suffix(".qmd")
+            
             # If media folder exists, then change media paths in qmd files to relative paths
             if (paper.converted_path / 'media/').is_dir():
                 print(f"found media folder in {paper.converted_path}")
                 
-                f = open((paper.converted_path / paper.name).with_suffix(".qmd"), 'r')
+                
+                f = open(fname, 'r')
                 contents = f.readlines()
                 f.close()
                 
@@ -173,7 +188,45 @@ if __name__ == '__main__':
                 with open((paper.converted_path / paper.name).with_suffix(".qmd"), 'w') as f:
                     f.writelines(contents)
                         
-                
+            # add affiliations to paper based on _config.yml
 
+            # load config from github:
+            site_config = requests.get(CRRESS_WEBSITE_CONFIG).text.replace("\t", "") # sanitize or else PyYAML doesn't load it
             
+            crress_panelists = yaml.safe_load(site_config)['panelists']
+            
+            # get part of dict for that panelist
+            panelist_dict = get_panelist(crress_panelists, paper.name)
+            
+            with io.open(fname, 'r', encoding="utf-8-sig") as f:
+                print(f"Added affiliation for {paper.name}, affil: {panelist_dict['affiliation']}")
+                post = frontmatter.load(f)
+                
+                if not isinstance(post['author'], str) and len(post['author']) > 1:
+                    print("found more than one author")
+                    # get extra author affiliation
+                    tag = paper.main_file.parent.stem
+                    session = paper.main_file.parent.parent.stem
+                    if extra_authors.get(session) is not None:
+                        if extra_authors[session].get(tag) is not None:
+                            e_a = extra_authors[session][tag]
+                        else:
+                            print("couldn't find session for extra author")
+                    panelist_dict['affiliation'] = {
+                        panelist_dict['name'] : panelist_dict['affiliation'],
+                        e_a['name'] : e_a['affiliation']
+                    }
+                    
+                    panelist_dict['affiliation'] = list(panelist_dict['affiliation'].values())
 
+                if isinstance(post['author'], str) or (isinstance(post['author'], list) and len(post['author'])==1):
+                    post['author'] = [post['author']]
+                    panelist_dict['affiliation'] = [panelist_dict['affiliation']]
+                    
+                post['author'] = [{'name' : v } for v in post['author']]
+                
+                for d, p in zip(post['author'], panelist_dict['affiliation']):
+                    d.update({'affiliations' : p})
+                newfile = io.open(fname, 'wb')
+                frontmatter.dump(post, newfile)
+                newfile.close()
