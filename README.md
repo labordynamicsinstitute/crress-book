@@ -13,3 +13,6 @@ This website is generated using Github Actions and uses a [workflow file](https:
 2. Installing python dependencies, pandoc and TeX (needed for using `quarto`)
 3. A conversion script that takes various types of document files (but most likely Word files) and converts it to markdown with `pandoc`
 4. A quarto action that compiles the website based on the `_config.yml` file.
+
+
+Website can be found [here](https://amichuda.github.io/crress-book/)
