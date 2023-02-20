@@ -30,14 +30,14 @@ book:
     - about.qmd
     - part: sessions/session1/session1_intro.qmd
       chapters:
-        - sessions/session1/converted/tim_salmon/tim_salmon.qmd
-        - sessions/session1/converted/toni_whited/toni_whited.qmd
+        - sessions/session1/converted/salmon/salmon.qmd
+        - sessions/session1/converted/whited/whited.qmd
     - part: sessions/session2/session2_intro.qmd
       chapters:
         - sessions/session2/converted/swauger/swauger.qmd
     - part: sessions/session3/session3_intro.qmd
       chapters:
-        - sessions/session3/converted/mendez_carbajo/mendez_carbajo.qmd
+        - sessions/session3/converted/diego/diego.qmd
     - part: sessions/session4/session4_intro.qmd
       chapters:
         - sessions/session4/converted/guimaraes/guimaraes.qmd
