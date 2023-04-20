@@ -128,7 +128,7 @@ BPLIM\'s (perturbed) confidential datasets but we hope to eventually
 convince all other users to take advantage of it. To illustrate, we
 provide a screenshot of the application:
 
-![](crress/sessions/session4/guimaraes/media/image1.png){width="6.5in"
+![](media/image1.png){width="6.5in"
 height="3.8069444444444445in"}
 
 Figure - BPLIM Replication tool -- selecting input files
@@ -145,7 +145,7 @@ intermediary output file. In that case, the intermediary file must have
 been validated in a prior run. BPLIM will then copy the file to the
 (read-only) data folder.).
 
-![](crress/sessions/session4/guimaraes/media/image2.png){width="6.5in"
+![](media/image2.png){width="6.5in"
 height="3.8090277777777777in"}
 
 Figure - The BPLIM Replication tool - finished task

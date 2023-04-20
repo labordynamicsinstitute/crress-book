@@ -178,7 +178,6 @@ if __name__ == '__main__':
             if (paper.converted_path / 'media/').is_dir():
                 print(f"found media folder in {paper.converted_path}")
                 
-                
                 f = open(fname, 'r')
                 contents = f.readlines()
                 f.close()
@@ -187,7 +186,7 @@ if __name__ == '__main__':
                     if str(paper.converted_path) + '/' in line:
                         contents[i] = line.replace(str(paper.converted_path) + '/', '')
                         
-                with open((paper.converted_path / paper.name).with_suffix(".qmd"), 'w') as f:
+                with open(paper.index_name().with_suffix(".qmd"), 'w') as f:
                     f.writelines(contents)
                         
             # add affiliations to paper based on _config.yml
