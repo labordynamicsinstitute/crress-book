@@ -17,6 +17,14 @@ class Paper:
     def extension(self):
         return self.main_file.suffix.replace(".", '')
     
+    def index_name(self):
+        return (self.converted_path / self.main_file.name).with_stem("index")
+
+    
+    def rename_to_index(self):
+        copied_path = self.converted_path / self.main_file.name
+        copied_path.rename(self.index_name())
+    
 
 @dataclass
 class Event:
