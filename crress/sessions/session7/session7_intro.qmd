@@ -1,0 +1,3 @@
+# Session 7: Why can or should research institutions publish replication packages?
+
+This session brings various perspectives together on how research institutions think about publishing replication packages themselves, i.e., not a journal or generalist repository. Panelists come from a university with a specialized, university-centred data repository; from a Federal Reserve Bank with an active researcher community, and from a non-profit (non-academic) research institution. Each faces the requirements of varied internal researchers, external visibility, and differing audiences. The panelists can all speak to how a research institution makes decision about the degree of transparency, and how much of that to do with internal resources.

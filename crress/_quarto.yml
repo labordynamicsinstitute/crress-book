@@ -41,6 +41,12 @@ book:
     - part: sessions/session4/session4_intro.qmd
       chapters:
         - sessions/session4/converted/guimaraes/guimaraes.qmd
+    - part: sessions/session5/session5_intro.qmd
+      chapters:
+        - sessions/session5/converted/hoynes/hoynes.qmd
+    - part: sessions/session7/session7_intro.qmd
+      chapters:
+        - sessions/session7/converted/macdonald/macdonald.qmd
 format:
   html:
     theme: 

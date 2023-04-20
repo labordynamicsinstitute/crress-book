@@ -1,0 +1,3 @@
+# Session 5: Disciplinary support: why is reproducibility not uniformly required across disciplines?
+
+Why do learned societies decide (or not) to implement data (and code) availability policies? What influences the level of enforcement, and the choice of "enforcer" (data editor, administrative staff, referees)? What are reasons NOT to require data sharing or code sharing?
