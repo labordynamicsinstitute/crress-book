@@ -1,0 +1,351 @@
+---
+abstract: This paper identifies gaps within the current research ethics regime that
+  can be complemented by intersectional feminism, queer theory, sexual education,
+  BDSM, and critical theory. When these disciplines are applied, informed consent
+  models can better integrate revocability, ongoing consent, and contextual consent.
+  Future work on informed consent and research ethics should incorporate these areas
+  to preserve the dignity of research subjects and equitably benefit all members of
+  the research process.
+author:
+- affiliations: Future of Privacy Forum
+  name: Shea Swauger
+title: 'Sex, Lies, and Data: New Models of Informed Consent'
+---
+
+## Introduction
+
+In the summer of 2015, a company called Ashley Madison was hacked and
+over seven million users' data was leaked (Lord, 2017). Data breaches
+like this are unfortunately common, but as Ashley Madison was
+specifically created to facilitate infidelity, the social fallout of the
+breach was more harmful than most. After the breach and subsequent
+fall-out, which included many individuals being publicly named and
+shamed after their information was found in the customer records, many
+users of the site ended up getting divorced, some lost their jobs, and
+there were multiple confirmed reports of self-harm (Baraniuk, 2015).
+
+Several researchers saw the data breach as an opportunity to advance
+their research. They used the leaked data to explore different questions
+about user demographics, geography, and risk-taking behavior and
+published the results in multiple peer-reviewed articles (Billau, 2017;
+Vedantam, 2016). However, in order to be published, these studies first
+had to be approved by their university's Institutional Review Board
+(IRB).
+
+IRBs are intended to reduce the potential risks and harms in research
+proposals that involve human subjects (or data thereof) and are often
+perceived as a marker of credibility for ethical research. All IRBs use
+something called the Common Rule, which is a set of federal guidelines
+that dictate how to conduct ethical research, and there is a stipulation
+in it that says if data is already public, then there is little
+potential for risk or harm for it to be used in research. It makes no
+stipulations about how that data became public. In fact, IRBs have no
+remit to review secondary uses of data, with bio-specimen data as the
+sole exception. To an IRB, public data is considered low risk regardless
+of how that data was obtained, and regardless of how sensitive the data
+is, and evaluating its use is not within their scope of review.
+Researchers got their studies approved by their IRBs, and academics
+continue to use and cite Ashley Madison data in publications. As a
+result, many more people see the leaked data and names of the implicated
+humans than would have had those papers never been published.
+
+## Nonconsensual Porn and Nonconsensual Data
+
+There are parallels between the use of leaked data sets like the Ashley
+Madison hack, and the viewing of nonconsensual pornography (NCP). For
+the unfamiliar, NCP is \"the distribution of sexually graphic images or
+videos of an individual without their consent in the context of an
+intimate relationship," (Carter, 2021). Perpetrators of NCP sometimes
+upload photos or videos of their victims onto pornography websites,
+which allow many more people to view them. Like most platforms, these
+websites often use engagement metrics, like view counts, which help
+determine if a video is "popular", with more popular media receiving
+more promotion. From a victim's perspective, the more people who see
+their image or video, the worse the mental and/or emotional harm. While
+the original perpetrator inflicted a significant harm, that harm gets
+compounded every time it gets viewed or shared by other people, and by
+viewing it, it raises the likelihood that someone else will view it.
+
+When researchers use data that was collected nonconsensually,
+unethically, or illegally, it has the potential to amplify the harm of
+the original data collector by pointing other people to it. Using
+unethical data for research is not the moral equivalent of the original
+hack, but there are many circumstances where it may still be considered
+morally wrong. The fact that the Common Rule and IRBs don't have the
+mechanisms necessary to address this issue means that we need more tools
+to fully judge the needs and bounds of ethical research (Jordan, 2022).
+Fortunately, there are many disciplines and scholars that have developed
+theoretical tools and practices we can use to improve the ethical
+conduct of research. I offer several areas that have been personally
+productive, though there are many others that can be used.
+
+## Intersectional Feminism, Queer Theory, Sex Education, and Critical Theory
+
+The first area that has been helpful for developing a fuller
+understanding of consent is intersectional feminism. Feminism is an
+interdisciplinary approach to addressing oppression related to gender
+identity and expression. Intersectionality is a theory that when someone
+has more than one marginalized identity (e.g., being a Black woman), the
+combination of those identities produces a greater risk than the sum of
+their parts (Crenshaw, 2006). Intersectional feminism interrogates
+oppression on multiple fronts including gender, race, class, disability,
+and others, especially how these oppressions interact with each other.
+These theories have much to say about what informed consent should look
+like, especially when it comes to bodily autonomy and agency. An
+intersectional feminist approach to informed consent will ensure that
+participants have control over their participation in a research study,
+individual control over their personal data, and communal control over
+communal data (Sterling, 2011; Fiesler, McCann, Frye & Brubaker, 2018).
+Informed consent can sometimes be framed as a liability waiver for
+institutions. Intersectional feminism would reframe informed consent as
+an expression of care for the wellbeing of the person which may
+supersede the research goals of the researchers or the legal liability
+of the university.
+
+A second helpful area is queer theory. Queer theorists critique dominant
+social expectations of sexual orientation and gender identity (Cohen,
+1997). Informed consent can sometimes mirror hetero-patriarchal models
+of power by framing consent as something only certain people are
+qualified to give (cis, heterosexual men), while others (LGBTQ people)
+are disqualified, for example, the FDA's ban on gay and bisexual men
+donating blood (Human Rights Campaign, 2020). Integrating queer theory
+and listening to the LGBTQ community can aid in analyzing how certain
+processes can unintentionally reify discriminatory ways of thinking, and
+they can help us move toward more inclusive ways of achieving informed
+consent (Edenfield, 2019; de Heer, Brown & Cheney, 2021).
+
+A third area is sexual education and the BDSM community. Inclusive and
+evidence-based sex educators have developed models of affirmative and
+enthusiastic consent that are sensitive to context (Center for Sex
+Education, 2016). Bondage/Discipline, Dominance/Submission, Sadism, and
+Masochism (BDSM) are consensual sexual acts that involve a power dynamic
+between partners. This kind of sex has a higher potential for risk
+because there are elements of pain or power involved and the BDSM
+community has developed many practices around consent and communication
+to mitigate those risks such as safe words (Dunkely & Brotto, 2020).
+These practices include experiences ranging from in-person to remote
+relationships, sometimes involving people's bodies while other times
+involving domination over personal documents or computers (Vogt &
+Goldman, 2018). Sex education and BDSM have richer, more nuanced
+theories and consent practices than most researchers at universities.
+
+A fourth area is critical theory, in particular its analysis of power
+and push for social change. Critical theory takes many forms and is
+often integrated into existing disciplines as a way to challenge
+structural assumptions and redistribute resources and opportunities
+within them, such as critical legal studies, critical pedagogy, and
+others. A critical approach to consent would be attuned to who has power
+within an informed consent transaction, who doesn't, and attempt to
+redress the asymmetrical dynamic. Applying a critical theory approach to
+informed consent can produce some unanticipated results. For example,
+the Panama Papers were a set of leaked documents exposing offshore
+financial transactions including criminal tax evasion, money laundering,
+and other financial crimes around the world (Fitzgibbon & Hudson, 2021).
+This was likely a situation where the material was obtained unlawfully
+and without the consent of the people whose information was publicized.
+Hundreds of papers and many books have been written that detail the
+Panama Papers and the individuals named in them. A traditional approach
+to informed consent would say that the Panama Papers leak was a wrongful
+violation of privacy. A critical consent approach would disregard claims
+of privacy by the victims because of the nature of the information
+leaked, namely a highly organized global financial system used by the
+rich and powerful to hide assets at the expense of the poor and
+powerless. Informed consent with a critical theory lens inverts
+traditional power dynamics, meaning that some rules about research
+ethics should be broken when following them would cause inequitable
+outcomes.
+
+## New Models of Consent
+
+When you look across the areas of intersectional feminism, queer theory,
+the LGBTQ community, sex educators, the BDSM community, and critical
+theory, there are commonalities that can be pulled out to help develop a
+better framework of consent in research. Using these as reference
+points, informed consent must be at least three things: revocable,
+ongoing, and contextual.
+
+Revocability means that after you give your consent to something, you
+can change your mind at any time and for any reason. Current research
+practice does this somewhat. Most consent forms state that research
+participants can stop their participation at any time, but there are
+many informal and implicit forces that discourage this. Participants may
+feel that by changing their minds they would inconvenience or disappoint
+the researchers, who are in a position of authority. Some participants
+may be persuaded by the sunk cost fallacy that if they've done something
+long enough, they might as well finish it even if they would prefer not
+to. In general, research participant consent is revocable only during
+the data collection phase. Once that data is used to publish something,
+there is almost nothing that a participant can do to remove their data
+from the study.
+
+Ongoing consent means that the 'one and done' model of most research is
+inadequate. In practice, it means frequent points of intentional
+communication gauging the interest of the participants in continuing in
+the research study. This does not have to devolve into performative
+check-ins that likely produce consent fatigue (Ranisch, 2021). The modes
+of ongoing consent should adapt to the environment and be naturally
+integrated into the requirements of the participant experience, so that
+providing or revoking consent is both easy and perceived as casual. In
+practice, this can look like introducing several points in a study where
+participants have to opt-in to continuing, with the expectation that if
+they don't, they automatically discontinue participation. Sometimes
+called contextual consent or just-in-time consent, this makes leaving a
+study mid-way through seem less interruptive or socially uncomfortable
+(IF, 2022).
+
+Contextual consent means that there isn't a template or formula for
+getting consent that can be applied across all research studies. When
+people consent to having sex, it is for specific people, places, and
+times. Giving consent to have sex once does not mean that you consent to
+sex with that person at any time and place in the future. Contextual
+consent adapts to the specific conditions it is being offered in and
+adjusts how it is communicated. In practice, this could look like
+developing unique consent methods for different populations that are
+attentive to the cultural and rhetorical differences, even if the
+research protocol is otherwise the same. For some populations, the
+standard written forms of consent using academic language may be
+adequate. For other populations, offering techniques using visual,
+auditory, narrative, behavioral, or game-based methods might be better
+suited to get meaningful consent
+
+Integrating these informed consent practices into human subject research
+will significantly improve the experience of participants as well as
+reduce the potential for unethical data collection and sharing. Academia
+has many justifications to ignore informed consent. Most times consent
+is neglected, the subsequent risks are distributed unequally among
+participants. The people who are put at the most risk are usually the
+people who are already the most vulnerable: women, children, people who
+are LGBTQ, non-binary, disabled, poor, people of color, and many others.
+Researchers have a responsibility to conduct research ethically and with
+respect for individual privacy needs and expectations. Using these
+consent practices by integrating intersectional feminism, queer theory,
+the LGBTQ community, sex education, BDSM, and critical theory can
+increase the quality of research and respect the dignity of the
+participants.
+
+An admittedly difficult area for applying these frameworks is when the
+circumstances of data collection and informed consent are more
+quotidian. The examples used above are dramatic when compared with most
+of the common research practices such as collecting public social media
+data from places like Facebook, Reddit, or Twitter. When the consent
+obtained is ambiguous, when the data being collected isn't particularly
+sensitive, or when the potential for significant social benefit is high,
+applying these theoretical tools isn't straightforward. Reasonable
+people can, and often do, disagree as to what ethical values are at
+stake and how to adjudicate them. The unfortunate ethical gray area this
+produces is still better than having clear but inequitable guidelines.
+
+## Final Thoughts
+
+It is highly unlikely that any rules developed to address the growing
+complexities of research ethics, especially in technology spaces, will
+be able to address every possible ethical dilemma that arises. The four
+areas offered above are tools that can help with some of the gaps
+currently found in research ethics, but they need to be constantly
+reexamined and supplemented as new issues present themselves. Ethical
+research is a horizon, not a place; we never arrive. By prioritizing the
+wellbeing of the most vulnerable and marginalized people in our
+communities and continually inventing better models of informed consent,
+we can take more confident steps towards that horizon.
+
+## References
+
+Baraniuk, C. (2015). *Ashley Madison: \'Suicides\' over website hack*.
+BBC. August 24.
+
+[[https://www.bbc.com/news/technology-34044506]{.underline}](https://www.bbc.com/news/technology-34044506)
+
+Billau, C. (2017) *Academic research uses hacked Ashley Madison data to
+map areas with most cheating husbands*. UToday, Alumni, Arts and
+Letters. January 10.
+
+> [[https://news.utoledo.edu/index.php/01_10_2017/academic-research-uses-hacked-ashley-madison-data-to-map-areas-with-most-cheating-husbands]{.underline}](https://news.utoledo.edu/index.php/01_10_2017/academic-research-uses-hacked-ashley-madison-data-to-map-areas-with-most-cheating-husbands)
+
+Carter, C. (2021). *An Update on the Legal Landscape of Revenge Porn*.
+National Association of Attorneys General. November 16.
+
+> [[https://www.naag.org/attorney-general-journal/an-update-on-the-legal-landscape-of-revenge-porn/]{.underline}](https://www.naag.org/attorney-general-journal/an-update-on-the-legal-landscape-of-revenge-porn/)
+
+Center for Sex Education, (2016). Why Comprehensive Sex Ed and Consent
+Education Go Hand in Hand, May 13.
+
+> [[https://www.sexedcenter.org/why-comprehensive-sex-ed-and-consent-education-go-hand-in-hand/]{.underline}](https://www.sexedcenter.org/why-comprehensive-sex-ed-and-consent-education-go-hand-in-hand/)
+
+Cohen, C. J. (1997). Punks, bulldaggers, and welfare queens: The radical
+potential of queer politics? Glq, 3(4), 437-465.
+
+[[https://doi.org/10.1215/10642684-3-4-437]{.underline}](https://doi.org/10.1215/10642684-3-4-437)
+
+Crenshaw, K. W. (2006). *Intersectionality, identity politics and
+violence against women of color*. Kvinder, Køn & Forskning, (2-3)
+
+[[https://doi.org/10.7146/kkf.v0i2-3.28090]{.underline}](https://doi.org/10.7146/kkf.v0i2-3.28090)
+
+de Heer, B., Brown, M., & Cheney, J. (2021). Sexual consent and
+communication among the sexual minoritized: The role of heteronormative
+sex education, trauma, and dual identities. Feminist Criminology, 16(5),
+701-721.
+
+[[https://doi.org/10.1177/15570851211034560]{.underline}](https://doi.org/10.1177/15570851211034560)
+
+Dunkley, C. R., & Brotto, L. A. (2020). The role of consent in the
+context of BDSM. Sexual Abuse, 32(6), 657-678.
+
+[[https://doi.org/10.1177/1079063219842847]{.underline}](https://doi.org/10.1177/1079063219842847)
+
+Edenfield, A. (2019). Queering consent: Design and sexual consent
+messaging. Communication Design Quarterly Review, 7(2), 50-63.
+
+[[https://doi.org/10.1145/3358931.3358938]{.underline}](https://doi.org/10.1145/3358931.3358938)
+
+Fiesler, C., McCann, J., Frye, K., & Brubaker, J. R. (2018, June).
+Reddit rules! characterizing an ecosystem of governance. In *Twelfth
+International AAAI Conference on Web and Social Media*.
+
+[[https://www.aaai.org/ocs/index.php/ICWSM/ICWSM18/paper/viewPaper/17898]{.underline}](https://www.aaai.org/ocs/index.php/ICWSM/ICWSM18/paper/viewPaper/17898)
+
+Fitzgibbon, W., Hudson, M. (2021) Five years later, Panama Papers still
+having a big impact. International Consortium of Investigative
+Journalists. April 3, 2021
+
+> [[https://www.icij.org/investigations/panama-papers/five-years-later-panama-papers-still-having-a-big-impact/]{.underline}](https://www.icij.org/investigations/panama-papers/five-years-later-panama-papers-still-having-a-big-impact/)
+
+IF. (2022) "Giving and Removing Consent: Just-in-time Consent". Data
+Patterns Catalog. IF
+
+[[https://catalogue.projectsbyif.com/patterns/just-in-time-consent/]{.underline}](https://catalogue.projectsbyif.com/patterns/just-in-time-consent/)
+
+Human Rights Campaign. (2020) Blood Donations.
+
+[[https://www.hrc.org/resources/blood-donations]{.underline}](https://www.hrc.org/resources/blood-donations)
+
+Jordan, S. (2022) The Playbook: Data Sharing for Research. The Future of
+Privacy Forum.
+
+[[https://fpf.org/wp-content/uploads/2022/12/FPF-Playbook-singles.pdf]{.underline}](https://fpf.org/wp-content/uploads/2022/12/FPF-Playbook-singles.pdf)
+
+Lord, N. (2017). *A Timeline of the Ashley Madison Hack*. Digital
+Guardian. July 27, 2017.
+
+[[https://digitalguardian.com/blog/timeline-ashley-madison-hack]{.underline}](https://digitalguardian.com/blog/timeline-ashley-madison-hack)
+
+Ranisch, R. (2021). Consultation with doctor twitter: Consent fatigue,
+and the role of developers in digital medical ethics. American Journal
+of Bioethics, 21(7), 24-25.
+
+[[https://doi.org/10.1080/15265161.2021.1926595]{.underline}](https://doi.org/10.1080/15265161.2021.1926595)
+
+Sterling, R. L. (2011). Genetic research among the Havasupai: A
+cautionary tale. *AMA Journal of Ethics*, *13*(2), 113-117.
+
+> [[https://journalofethics.ama-assn.org/article/genetic-research-among-havasupai-cautionary-tale/2011-02]{.underline}](https://journalofethics.ama-assn.org/article/genetic-research-among-havasupai-cautionary-tale/2011-02)
+
+Vedantam, S. (2016). *Ashley Madison Hack Inspires Social Scientists to
+Look Behind the Names*. National Public Radio. April 28.
+
+> [[https://www.npr.org/2016/04/28/476060486/ashley-madison-hack-inspires-social-scientists-to-look-behind-the-names]{.underline}](https://www.npr.org/2016/04/28/476060486/ashley-madison-hack-inspires-social-scientists-to-look-behind-the-names)
+
+Vogt, P. J., Goldman, A. (2018) Episode 116 Trust The Process.
+/reply-all/. February 28, 2018.
+
+[[https://open.spotify.com/episode/0NGOihC8u0GBuxdV3fEBLb]{.underline}](https://open.spotify.com/episode/0NGOihC8u0GBuxdV3fEBLb)

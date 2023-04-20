@@ -1,0 +1,142 @@
+---
+abstract: 'Abstract: As the leader of the Technology and Data Science team at the
+  Urban Institute, I believe that the field of quantitative social science data analytics
+  needs increased requirements and branding around reproducibility checks, open data,
+  and helpful documentation. Doing so could help to separate high-quality science
+  from less well supported arguments, and pave the way to increasing replication studies
+  in the field. In this piece, I discuss my organization, the Urban Institute, our
+  initiatives, successes, and challenges to date in this area, and my recommendations
+  for next steps.'
+author:
+- affiliations: Urban Institute
+  name: Graham MacDonald
+title: Open Data and Code at the Urban Institute
+---
+
+## Background
+
+The Urban Institute is an organization whose mission is to provide
+evidence, analysis, and tools to people who make change to ultimately
+empower communities and improve people's lives. We define "people who
+make change" broadly as policymakers, government agency employees,
+advocates, community leaders foundations, corporate leaders, and other
+similar actors.
+
+Though Urban as an organization has a number of goals, I would
+categorize our primary drivers as 1) to make impact toward our mission
+and 2) to fundraise effectively to support that impact and the
+organizational supports that make it possible. This is important to
+consider later when I discuss organizational priorities around open data
+and code.
+
+Similarly, Urban conducts work broadly across many policy areas, however
+I might summarize them succinctly as 1) conducting policy research and
+evaluations, 2) providing technical assistance on implementation, 3)
+producing data and data tools, 4) providing advisory services, 5)
+convening experts across sectors, and 6) translating research and
+communicating it to targeted audiences. In support of this work, Urban
+sometimes posts both the data and code powering the data on its website,
+Urban.org.
+
+## Main Thoughts
+
+**Existing Initiatives**
+
+Urban is home to a number of existing initiatives intended to make
+progress toward more open data and code. The first is Urban's Data
+Catalog (<https://datacatalog.urban.org/>), to which all researchers who
+wish to publish code on Urban's website must submit their data and
+document their submissions to a minimum extent. The second is Urban's
+central library of quality assurance materials and trainings, which
+promote open science standards, reproducibility checks, automation in
+programming, clear organization, and quality documentation throughout.
+The third is Urban's automated R (and soon Stata) themes, templates, and
+guides, which allow researchers to more easily automate the full
+research pipelines from data collection to publication in R. Urban has
+processes in place to comply with the requirements of third parties,
+such as the AEA Data Editor and ICPSR among others, to whom Urban is
+required to submit or may submit voluntarily. And finally, Urban has a
+central team that is available to conduct code reviews and
+reproducibility checks on demand.
+
+Urban continues to make improvements in all of these areas, including
+adding supporting resources for quality assurance such as an internal
+code library, providing additional documentation and examples on Github
+for certain projects, improving our automation of publishing systems to
+extend to additional content on our website, and revamping and improving
+our data catalog experience.
+
+**Successes**
+
+As a result of these efforts, Urban has seen a number of successes that
+have led to substantial benefits to the organization. For our external
+users and partners, our publicly available data are now better
+documented, with a clear license for use, citations are clear and
+available, and our impact through open data is easier to see and track.
+I have seen better quality assurance materials and process automation
+lead to a more streamlined review process that saves time and allows for
+rapid iteration and even innovation under tight timelines. The processes
+and systems in place have also allowed for more redundancy and reduced
+stress on team members when they work well, especially when these
+efforts reduced in improved documentation, onboarding, communication,
+and collaboration across teams with diverse skill sets and backgrounds.
+
+**Challenges**
+
+Despite our efforts and successes, significant challenges remain. Our
+organization is decentralized and funded by many different parties
+across government, philanthropy, and the private sector. I have observed
+that many of these funders in recent years, especially in the
+philanthropic sector, have shifted their focus away from core research
+and more toward work that generates impact. I worry that this shift will
+lead open data and code efforts to be seen increasingly as "optional"
+when so many other "more impactful" activities are vying for the next
+marginal funding dollar. In any case, as a result of this landscape,
+these open practices are only adopted on a voluntary basis or in certain
+cases where required by the funder or journal at Urban.
+
+I also observe that researchers and organizational leadership are not
+directly incentivized, outside of the few funding requirements we do
+observe (such as the Sloan Foundation, the Arnold Foundation, the
+National Science Foundation, and others), by existing priorities to
+tackle these challenges. In the scope of our priority focuses on impact
+and fundraising, I have observed that while centralized quality
+assurance and open code are seen as a priority at Urban, they have been
+at times overwhelmed by even higher priorities, especially in light of
+my thoughts on funders' changing priorities in this space.
+
+In the meantime, researchers continue to prioritize quality control in
+their own decentralized individual projects and efforts. However, in my
+experience the majority are not motivated by quality control arguments
+to adopt newer open data and code practices, and the strongest
+motivation remains funder and journal requirements. Most researchers I
+work with see their work and current processes as high quality, just
+defined differently across the organization. More importantly, in my
+view, is that open data and code efforts are often seen as an additional
+layer of bureaucracy and busy work on top of existing requirements, and
+thus they are perceived as reducing the agency and academic freedom that
+many researchers highly value.
+
+## Conclusion
+
+It is hard for me to see openness and reproducibility change without
+increasing the requirements on researchers and institutions from those
+funding them and disseminating their work. Ultimately, despite the
+short-term perceived costs of increased bureaucracy, I believe these
+requirements will bring larger benefits and are worth considering.
+
+I believe it would be wise for advocates for open data and reproducible
+research to call for funders and journals to require reproducibility
+checks at a minimum, and open data where possible as a next step. I
+would also be in favor of third-party reproducibility checks, and/or
+marks that certified that a third-party check has been passed and
+certain materials are available for reproduction.
+
+I believe that these requirements would improve our clients' confidence
+in the quality of the complying institutions, and clearly help us to
+differentiate important policy signal from the noise. It would also pave
+the way toward a future where more replication studies are feasible.
+Urban currently has systems, processes, and materials in place to comply
+with these requirements, and the field now has sufficient examples from
+peer organizations and journals to enable the rapid spread of best
+practices once requirements are in place.

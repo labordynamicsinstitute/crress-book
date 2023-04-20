@@ -30,23 +30,23 @@ book:
     - about.qmd
     - part: sessions/session1/session1_intro.qmd
       chapters:
-        - sessions/session1/converted/salmon/salmon.qmd
-        - sessions/session1/converted/whited/whited.qmd
+        - sessions/session1/salmon/index.qmd
+        - sessions/session1/whited/index.qmd
     - part: sessions/session2/session2_intro.qmd
       chapters:
-        - sessions/session2/converted/swauger/swauger.qmd
+        - sessions/session2/swauger/index.qmd
     - part: sessions/session3/session3_intro.qmd
       chapters:
-        - sessions/session3/converted/diego/diego.qmd
+        - sessions/session3/diego/index.qmd
     - part: sessions/session4/session4_intro.qmd
       chapters:
-        - sessions/session4/converted/guimaraes/guimaraes.qmd
+        - sessions/session4/guimaraes/index.qmd
     - part: sessions/session5/session5_intro.qmd
       chapters:
-        - sessions/session5/converted/hoynes/hoynes.qmd
+        - sessions/session5/hoynes/index.qmd
     - part: sessions/session7/session7_intro.qmd
       chapters:
-        - sessions/session7/converted/macdonald/macdonald.qmd
+        - sessions/session7/macdonald/index.qmd
 format:
   html:
     theme: 

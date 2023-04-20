@@ -12,7 +12,8 @@ import io
 
 from extra_authors import extra_authors
 
-root: Path = Path('crress/sessions')
+root: Path = Path('raw_writeups/')
+converted_root: Path = Path("crress/sessions/")
 
 CRRESS_WEBSITE_CONFIG = "https://raw.githubusercontent.com/labordynamicsinstitute/crress/main/_config.yml"
 
@@ -48,7 +49,7 @@ def get_events():
     for directory in root.glob("[!.]*"): # Don't include hidden files
         papers = []
         # further filter the paper folder to get rid of converted folder and intro file
-        directory_glob = [path for path in directory.glob("[!.]*") if path.stem not in ['converted', f"{directory.stem}_intro"]]
+        directory_glob = [path for path in directory.glob("[!.]*")]
         for paper_folder in directory_glob:
 
             # try the dict first
@@ -83,7 +84,7 @@ def get_events():
                 Paper(
                     name=paper_folder.name,
                     path=paper_folder,
-                    converted_path=paper_folder.parents[0] / 'converted' / paper_folder.name,
+                    converted_path=converted_root / paper_folder.parent.name / paper_folder.name,
                     main_file=main_file
                 )
             )
@@ -98,7 +99,7 @@ def get_events():
 def pandoc_convert(paper: Paper, fmt : str=None, **kwargs):
     if fmt is None:
         fmt=paper.extension()
-    new_main_file_path = paper.converted_path / paper.main_file.name
+    new_main_file_path = paper.index_name()
     return pypandoc.convert_file(str(new_main_file_path), 
                                  'markdown+yaml_metadata_block', 
                                  outputfile=str(new_main_file_path.with_suffix('.qmd')),
@@ -108,7 +109,7 @@ def pandoc_convert(paper: Paper, fmt : str=None, **kwargs):
 def jupytext_convert(paper: Paper, fmt: str=None):
     if fmt is None:
         fmt = paper.extension()
-    new_main_file_path = paper.converted_path / paper.main_file.name
+    new_main_file_path = paper.index_name()
     
     notebook = jupytext.read(str(new_main_file_path))
     
@@ -144,6 +145,7 @@ if __name__ == '__main__':
         for paper in event.papers:
             # create new directory for converted files
             shutil.copytree(paper.path, paper.converted_path, dirs_exist_ok=True)
+            paper.rename_to_index()
             
             # Handle conversion
             if paper.extension().lower() in ['qmd', 'rmd']:
@@ -170,7 +172,7 @@ if __name__ == '__main__':
             # Now handle the bibtex parsing
             bib_parsed = parse_bibtex(paper)
             
-            fname = (paper.converted_path / paper.name).with_suffix(".qmd")
+            fname = paper.index_name().with_suffix(".qmd")
             
             # If media folder exists, then change media paths in qmd files to relative paths
             if (paper.converted_path / 'media/').is_dir():
