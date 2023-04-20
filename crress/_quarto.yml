@@ -5,7 +5,7 @@ project:
 
 book:
   title: "CRRESS"
-  repo-url: https://github.com/amichuda/crress-book
+  repo-url: https://github.com/labordynamicsinstitute/crress-book
   repo-actions: [edit]
   downloads: [pdf]
   navbar:
@@ -18,10 +18,10 @@ book:
   page-navigation: true
   page-footer: 
     # background: "#f8f8f8"
-    left: "Copyright 2022, CRRESS"
+    left: "Copyright 2022, Cornell University or with the authors"
     right:
-      - icon: github
-        href: https://github.com/amichuda/crress-book/
+      - icon: home
+        href: https://labordynamicsinstitute.github.io/crress/
   # reader-mode: true
   search: true
   chapters:
