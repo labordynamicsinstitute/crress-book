@@ -28,25 +28,25 @@ book:
     - index.qmd
     - events.qmd
     - about.qmd
-    - part: sessions/session1/session1_intro.qmd
+    - part: sessions/1/session1_intro.qmd
       chapters:
-        - sessions/session1/salmon/index.qmd
-        - sessions/session1/whited/index.qmd
-    - part: sessions/session2/session2_intro.qmd
+        - sessions/1/salmon/index.qmd
+        - sessions/1/whited/index.qmd
+    - part: sessions/2/session2_intro.qmd
       chapters:
-        - sessions/session2/swauger/index.qmd
-    - part: sessions/session3/session3_intro.qmd
+        - sessions/2/swauger/index.qmd
+    - part: sessions/3/session3_intro.qmd
       chapters:
-        - sessions/session3/diego/index.qmd
-    - part: sessions/session4/session4_intro.qmd
+        - sessions/3/diego/index.qmd
+    - part: sessions/4/session4_intro.qmd
       chapters:
-        - sessions/session4/guimaraes/index.qmd
-    - part: sessions/session5/session5_intro.qmd
+        - sessions/4/guimaraes/index.qmd
+    - part: sessions/5/session5_intro.qmd
       chapters:
-        - sessions/session5/hoynes/index.qmd
-    - part: sessions/session7/session7_intro.qmd
+        - sessions/5/hoynes/index.qmd
+    - part: sessions/7/session7_intro.qmd
       chapters:
-        - sessions/session7/macdonald/index.qmd
+        - sessions/7/macdonald/index.qmd
 format:
   html:
     theme: 

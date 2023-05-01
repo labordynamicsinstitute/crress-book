@@ -12,7 +12,7 @@ import io
 
 from extra_authors import extra_authors
 
-root: Path = Path('raw_writeups/')
+root: Path = Path('raw_writeups/sessions')
 converted_root: Path = Path("crress/sessions/")
 
 CRRESS_WEBSITE_CONFIG = "https://raw.githubusercontent.com/labordynamicsinstitute/crress/main/_config.yml"
