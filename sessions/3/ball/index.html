@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Hilary Hoynes, Professor of Economics and Public Policy, UC Berkeley">
+<meta name="author" content="Richard Ball">
 
-<title>CRRESS - Reproducibility in Economics: Status and Update</title>
+<title>CRRESS - “Yes We Can!”: A Practical Approach to Teaching Reproducibility to Undergraduates</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
-<link href="../../../sessions/7/session7_intro.html" rel="next">
-<link href="../../../sessions/5/session5_intro.html" rel="prev">
+<link href="../../../sessions/4/session4_intro.html" rel="next">
+<link href="../../../sessions/3/diego/index.html" rel="prev">
 <script src="../../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -93,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../sessions/5/session5_intro.html">Session 5: Disciplinary support: why is reproducibility not uniformly required across disciplines?</a></li><li class="breadcrumb-item"><a href="../../../sessions/5/hoynes/index.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Reproducibility in Economics: Status and Update</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../sessions/3/session3_intro.html">Session 3 - Should teaching reproducibility be a part of undergraduate education or curriculum?</a></li><li class="breadcrumb-item"><a href="../../../sessions/3/ball/index.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">"Yes We Can!": A Practical Approach to Teaching Reproducibility to Undergraduates</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -182,7 +182,7 @@ in the Undergraduate Curriculum</span></a>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../sessions/3/ball/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">“Yes We Can!”: A Practical Approach to Teaching Reproducibility to Undergraduates</span></a>
+  <a href="../../../sessions/3/ball/index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">“Yes We Can!”: A Practical Approach to Teaching Reproducibility to Undergraduates</span></a>
   </div>
 </li>
       </ul>
@@ -214,7 +214,7 @@ in the Undergraduate Curriculum</span></a>
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../sessions/5/hoynes/index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Reproducibility in Economics: Status and Update</span></a>
+  <a href="../../../sessions/5/hoynes/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Reproducibility in Economics: Status and Update</span></a>
   </div>
 </li>
       </ul>
@@ -248,20 +248,22 @@ in the Undergraduate Curriculum</span></a>
   <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
   <li><a href="#main-thoughts" id="toc-main-thoughts" class="nav-link" data-scroll-target="#main-thoughts">Main Thoughts</a>
   <ul class="collapse">
-  <li><a href="#i.-the-possibly-unique-role-of-the-american-economic-association" id="toc-i.-the-possibly-unique-role-of-the-american-economic-association" class="nav-link" data-scroll-target="#i.-the-possibly-unique-role-of-the-american-economic-association">I. The (possibly unique) role of the American Economic Association</a></li>
-  <li><a href="#ii.-aea-actions" id="toc-ii.-aea-actions" class="nav-link" data-scroll-target="#ii.-aea-actions">II. AEA Actions</a></li>
+  <li><a href="#the-exercise" id="toc-the-exercise" class="nav-link" data-scroll-target="#the-exercise">The Exercise</a></li>
   </ul></li>
-  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a>
+  <ul class="collapse">
+  <li><a href="#standards-of-reproducibility" id="toc-standards-of-reproducibility" class="nav-link" data-scroll-target="#standards-of-reproducibility">Standards of reproducibility</a></li>
+  <li><a href="#bells-and-whistles" id="toc-bells-and-whistles" class="nav-link" data-scroll-target="#bells-and-whistles">Bells and whistles</a></li>
+  </ul></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/labordynamicsinstitute/crress-book/edit/main/sessions/5/hoynes/index.qmd" class="toc-action">Edit this page</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/labordynamicsinstitute/crress-book/edit/main/sessions/3/ball/index.qmd" class="toc-action">Edit this page</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Reproducibility in Economics: Status and Update</span></h1>
+<h1 class="title"><span class="chapter-title">“Yes We Can!”: A Practical Approach to Teaching Reproducibility to Undergraduates</span></h1>
 </div>
 
 
@@ -270,11 +272,11 @@ in the Undergraduate Curriculum</span></a>
   <div class="quarto-title-meta-heading">Affiliation</div>
   
     <div class="quarto-title-meta-contents">
-    <p class="author">Hilary Hoynes, Professor of Economics and Public Policy, UC Berkeley </p>
+    <p class="author">Richard Ball </p>
   </div>
     <div class="quarto-title-meta-contents">
         <p class="affiliation">
-            UC Berkeley and Berkeley Opportunity Lab
+            Haverford College and Project TIER
           </p>
       </div>
     </div>
@@ -286,47 +288,215 @@ in the Undergraduate Curriculum</span></a>
     
   </div>
   
+<div>
+  <div class="abstract">
+    <div class="abstract-title">Abstract</div>
+    This paper presents a sequence of four exercises illustrating how students can be introduced to reproducible methods of data processing and analysis in a series of small steps. Each step is modest and feasible even in introductory classes, but cumulatively they allow students to achieve state of the art standards of reproducibility. By demonstrating the feasibility of teaching reproducible methods to beginning students, these exercises support the assertion that reproducibility can and should be integrated into quantitative methods training at all levels of the curriculum.
+  </div>
+</div>
 
 </header>
 
-<p>This article provides a status update on reproducibility in the Economics profession. This includes a particular emphasis on quantitative research. And a chronology of the role the American Economic Association has taken in this progress.</p>
+<p>I thank Lars Vilhuber and Aleksandr Michuda for the opportunity to participate in the Conference. I acknowledge my debt to Barak Obama and Robert T. Builder for the inspirational slogan I have borrowed from them to use in the title of this paper. The ideas about teaching reproducibility in this paper have been developed over more than a decade of collaboration with Norm Medeiros.</p>
 <section id="background" class="level2">
 <h2 class="anchored" data-anchor-id="background">Background</h2>
-<p>I am an economist and study poverty and inequality and the role of the social safety net in family and child wellbeing. I want to start by positioning myself and my background a little bit, as it relates to the conversation today. Over the past decade or more, I have engaged in a variety of professional service activities that are linked to reproducibility and open science. First, I am currently a member of the Committee on National Statistics at the National Academies of Science, Engineering and Medicine, where we discuss a range of issues around data, replication and reproducibility. I was a member of the Commission on Evidence Based Policymaking, and there we made recommendations around administrative data and linkages balancing access and privacy. I mention these experiences because in Economics there has been tremendous growth in the use of confidential, proprietary or administrative data and there are significant challenges in open science goals around these data. Second, I spent a decade as a Co-Editor of journals under the American Economic Association, first at AEJ: Economic Policy and subsequently at the American Economic Review, the flagship journal of the association. While a Co-Editor at the American Economic Review, and also a member of the AEA Executive Committee, I Co-Chaired the search committee for an AEA Data Editor. This is the position that Lars Vilbuber holds.</p>
+<p>Is it feasible to include reproducible research methods in undergraduate training in quantitative data analysis? There are reasons to believe the answer to that question is “no”—that reproducibility is an advanced topic best left to graduate school or early career training. Professional standards such as the <a href="https://aeadataeditor.github.io/aea-de-guidance/">AEA Data Editor’s guidelines</a> and the <a href="https://worldbank.github.io/dime-data-handbook/">World Bank Development Impact Evaluation (DIME) manual</a> may appear too technical and complex to introduce to undergraduates. Even the <a href="https://www.projecttier.org/tier-protocol/protocol-4-0/">TIER Protocol</a>, which was designed to be accessible to students at all levels, is elaborated with a degree of specificity and detail that could give the impression that incorporating reproducibility into undergraduate classes and research supervision would be a costly and disruptive undertaking.</p>
+<p>This essay argues that, on the contrary, integrating reproducibility into the undergraduate curriculum is eminently feasible. To support this claim, we develop a simple exercise of the kind that might be assigned in an introductory quantitative methods class, and then present four versions of the exercise: a baseline in which the issue of reproducibility is entirely neglected, and three subsequent versions that incrementally introduce essential elements of reproducibility. The additional skills students must acquire for each version of the exercise are modest, but cumulatively they prepare students in computational methods that achieve state of the art standards of reproducibility. These exercises demonstrate the feasibility of teaching reproducibility to undergraduates, and provide instructors with concrete examples of small, practical steps they can take to achieve that goal.</p>
 </section>
 <section id="main-thoughts" class="level2">
 <h2 class="anchored" data-anchor-id="main-thoughts">Main Thoughts</h2>
-<p>The theme of this session is how differences in support for reproducibility exist across the social sciences. Hence I organize my comments to focus on the status of reproducibility in Economics and what might make it different from other social sciences.</p>
-<section id="i.-the-possibly-unique-role-of-the-american-economic-association" class="level3">
-<h3 class="anchored" data-anchor-id="i.-the-possibly-unique-role-of-the-american-economic-association">I. The (possibly unique) role of the American Economic Association</h3>
-<p>The American Economic Association (AEA) has a lot of “market power” because it controls a large share of the high quality journal landscape. The AEA journals include the American Economic Review, the American Economic Review: Insights, and American Economic Journals (there are four of these), [as well as the Journal of Economic Literature and the Journal of Economic Perspectives]. The AEA started with the American Economic Review (AER) and is one of the “top 5” general interest publications in Economics. The AER became so clogged with quality submissions and accepted papers (with 2 year waits between acceptance and publication) that the AEA expanded the number of issues that they produced per year. This led the AER to publish a disproportionate share of the articles in Economics top 5 journals.</p>
-<p>Following the success of the AEA journals and the strong budget situation at the association, the AEA decided to expand and add additional journals to its portfolio. We added AER: Insights, featuring short format articles with quick turnaround, in an attempt to compete with publications in Science and PNAS. We also added four top field journals to try to occupy the space just below the top 5, perhaps wrestling some of the market from for profit journals such as those published by Elsevier. This became the four American Economic Journals (AEJ) - AEJ: Applied Economics, AEJ: Economic Policy, AEJ: Microeconomics, and AEJ: Macroeconomics.</p>
-<p>So if you put this all together, there's a lot of the journal space (and highly ranked journal space) that the American Economic Association runs.</p>
-<p>With this “market power” and over period of time the association made a series of moves in the area of open science. This approach came about through both top down and bottom up mechanisms. There was definitely interest among the AEA Executive Committee including the lead editors of the American Economic Review, first Penny Goldberg followed by Esther Duflo. But there was also a perspective that percolated up from the membership. This may have come in part in response to the replication crises in other disciplines. Additionally, many of us engaged in training graduate students desired data for students to get practice and skills.</p>
-<p>Overall, I think the AEA views itself as having the potential to take actions that set standards that are adopted more broadly in the profession. (I hope the association takes the same approach to dealing with sexual harassment in Economics.)</p>
-</section>
-<section id="ii.-aea-actions" class="level3">
-<h3 class="anchored" data-anchor-id="ii.-aea-actions">II. AEA Actions</h3>
-<p>So what did the AEA do?</p>
-<p>They set up the AEA RCT Registry. As stated on the website: “Randomized Controlled Trials (RCTs) are widely used in various fields of economics and other social sciences. As they become more numerous, a central registry on which trials are on-going or complete (or withdrawn) becomes important for various reasons: as a source of results for meta-analysis; as a one-stop resource to find out about available survey instruments and data. Because existing registries are not well suited to the need for social sciences, in April 2012, the AEA executive committee decided to establish such a registry for economics and other social sciences.”</p>
-<p>Second, and more pertinent to this conversation, the American Economic Review adopted a requirement to post data and code for all accepted papers. It initially was very much on the honor system but it was felt that this was a good first step. There were some staff who worked on confirming that files were uploaded, but not much beyond that.</p>
-<p>After some time, there was an evaluation of how this was going. The answer was, not so well. Often times, the data and code would be incomplete. Documentation would be insufficient. It would be difficult for reuse, and it wasn't replicable. There was a recognition that you need skilled leadership and staff for this to work.</p>
-<p>This led to the next stage of open science at the AEA. We recognized that we had the budget to do more. The AEA compensates all journal editors a pretty fair wage for the work. And the view was perhaps we should take the next step to hire someone who would work with the journal editors as well as with the AEA Executive Committee to create a more robust system for reproducibility. There was a discussion about whether or not we wanted this individual to be a practicing academic who has skills in this area, or whether we just needed to build up more staffing. We reached out to folks in other disciplines to find out what they were doing. We liked the model at the American Statistical Association who had appointed an academic researcher who also had skills in open science.</p>
-<p>We had a search for this new position which we called the AEA Data Editor. From the job ad, the data editor would “Collaborate with journal editors and executive committee; design and oversee implementation of strategy for archiving &amp; curating data, promoting reproducible research.” In short, we needed an architect of the new system as well as a manager and implementer. We were lucky to attract Lars Vilhuber to the position. He is a practicing academic researcher who also has the skills in open science, and could work at the frontier.</p>
+<section id="the-exercise" class="level3">
+<h3 class="anchored" data-anchor-id="the-exercise">The Exercise</h3>
+<p>In all versions of the exercise, students are given an extract of data from the 2018 American Community Survey (citation), and use it to compare average incomes of prime working-age workers by race and sex. The computational tasks are (i) to construct a table showing the means of total income for groups defined by race and sex, and (ii) illustrate those group means in a bar graph. Students then write a report in which they present the table and bar graph, and comment on the patterns they observe.</p>
+<p>The report students submit for all four versions are identical. The versions differ in the extent to which students adopt practices that enhance the reproducibility of their results, and in the documentation that is submitted with the report.</p>
+<p><strong>Version 1: Interactive and non-reproducible.</strong> In this baseline version, the issue of reproducibility is entirely ignored. Students open the data file by double-clicking, and then generate the table and bar graph using a menu-driven GUI or by typing commands interactively. They use a word processor to write the report, and insert the table and graph by copying-and-pasting the output displayed on their monitor. The only work students turn in is a single document—the report.</p>
+<p><strong>Version 2: Writing scripts, the project folder, and the working directory.</strong> Scripts are fundamental to reproducible research: it is by executing scripts written and preserved by the author of a study that interested readers are able to reproduce the results.</p>
+<p>Instructors and students accustomed to an interactive workflow are often reluctant to adopt reproducible methods because they perceive learning to write code and work with scripts as a hurdle. But version 2 of the exercise shows that the hurdle is not as high as it might appear. Students need not master a programming language to get started: learning the syntax of a few basic commands is sufficient to begin working with scripts and take meaningful steps toward reproducibility.</p>
+<p>Version 2 is identical to the non-reproducible version 1, except that instead of interactively typing commands or using menus, students write a script that includes all the commands needed to open the data file and generate the table and bar graph. As in version 1, students write the report with a word processor and copy and paste the results from their monitor into the report.</p>
+<p>Because the data file is opened by a command in the script (rather than by double-clicking), it is necessary to be explicit about where the data file is stored and which folder is designated as the working directory. The instructions for version 2 advise students to follow a very simple convention to ensure the software can find the data file:</p>
+<ul>
+<li><p>All the files for the exercise—the data file, the script, and the &gt; report—should be stored in a single folder, which is referred to &gt; as the project folder.</p></li>
+<li><p>Before executing the script, the user should designate the project &gt; folder as the working directory for their software.</p></li>
+</ul>
+<p>The instructions to version 2 also provide guidance on several best practices for writing scripts:</p>
+<ul>
+<li><p><strong>Headers.</strong> Every script should begin with a header. Instructors may use their discretion to decide what information they ask students to include in the header for any particular script, but typically headers provide information such as the date, the name of the person writing the script, and a description of the purpose of the script. It is also useful to include a note in the header indicating to the user which folder should be designated as the working directory when the script is executed.</p></li>
+<li><p><strong>Setup.</strong> It is usually convenient to start a script with commands that (i) declare the version of the software being used, (ii) install any other software or add-ons that will be necessary, (iii) clear memory, and (iv) specify any relevant settings for the software.</p></li>
+</ul>
+<!-- -->
+<ul>
+<li><p><strong>Open the data.</strong> The data file should be opened by a command in the script (not by double-clicking). The command that reads the data must come before any commands that manipulate or analyze the data.</p></li>
+<li><p><strong>Comments.</strong> Throughout the script, it is essential to write detailed and informative comments explaining the purpose of each command. These comments will be helpful to any interested reader who chooses to explore the documentation for a project. Moreover, they are valuable to the students themselves: unless they include good comments in their scripts, they may have trouble deciphering code they wrote only a few days ago.</p></li>
+</ul>
+<p>As in version 1, students write the report with a word processor, and copy and paste the results from their monitor into the report. In version 2, however, the work they submit consists not just the report, but their entire project folder, containing the data file, their script, and the report.</p>
+<p>The instructor should then be able to reproduce the table and bar graph simply by launching the software, setting the working directory to the project folder, and executing the script.</p>
+<p><strong>Version 3: Saving output.</strong> In versions 1 and 2, students copy and paste output from their monitor into the report, but their results are not preserved in any other way. In version 3, students write additional code in the script that saves the results in two output files: a text file containing the table, and a graphics file containing the bar graph. As in version 2, students store the data file, their script, and their report in a single project folder, which is again designated as the working directory. Because the project folder is designated as the working directory, that is where the two output files are saved when they are generated.</p>
+<p>Saving the output files makes it possible to automate the process of inserting the results into the report. Instead of using a word processor and copying and pasting, students can write the report in a markup language (like Markdown or LaTeX), embedding links to the output files at appropriate points in the text.</p>
+<p>The work students submit for version 3 again consists of the entire project folder, but in this case the project folder contains not only the data file, script, and report, but the two output files as well.</p>
+<p><strong>Version 4: The reproducibility trifecta: Folder hierarchy and relative directory paths.</strong> Version 3 involves a number of files of several different types, all of which are stored together in a single project folder. In version 4, students add some structure by creating several subfolders inside the project folder and distributing the various files among them. The organizational scheme in version 4 is very simple:</p>
+<ul>
+<li><p>The report is stored in the top level of the project folder.</p></li>
+<li><p>Three new folders are created in the top level of the project &gt; folder: <strong>Data</strong>, <strong>Scripts</strong>, and <strong>Output</strong>.</p>
+<ul>
+<li><p>The data file is saved in <strong>Data</strong>.</p></li>
+<li><p>The script is saved in <strong>Scripts</strong>.</p></li>
+<li><p>The output files are saved in <strong>Output</strong>.</p></li>
+</ul></li>
+</ul>
+<p>For more complex projects, it is usually convenient build a more developed folder hierarchy, often including several levels of subfolders within the project folder. But the simple scheme used in version 4 is sufficient to introduce the key practices for achieving reproducibility given any folder structure adopted in a particular application.</p>
+<p>When the files for a project are distributed in a hierarchy of folders within the project folder, the key to reproducibility lies in three practices that we refer to as the <strong><em>reproducibility trifecta</em></strong>.</p>
+<ol type="1">
+<li><p><strong>Establish a well-defined folder hierarchy</strong>.</p>
+<ul>
+<li><p>All of the documentation for a project should be stored in a &gt; single project folder.</p></li>
+<li><p>The project folder should contain a hierarchy of subfolders in &gt; which the various files are organized in some convenient and &gt; sensible way.</p>
+<ul>
+<li><p>This structure should be established, and the hierarchy of &gt; folders (all initially empty) should be built, before work &gt; with the data begins.</p></li>
+<li><p>The folders should then be populated with the data, scripts, &gt; and other files generated as work on the project &gt; progresses.</p></li>
+</ul></li>
+</ul></li>
+</ol>
+<!-- -->
+<ol type="1">
+<li><p><strong>Be explicit about the working directory.</strong></p>
+<ul>
+<li><p>For every script you write, choose one of your folders (either &gt; the project folder or one of the folders inside the project &gt; folder) to be designated as the working directory when the &gt; script is executed.</p></li>
+<li><p>We recommend the following convention: Always designate the &gt; project folder as the working directory. When you, or an &gt; independent investigator interested in your project, launch &gt; the software to begin working with your scripts, they will &gt; need to check whether the project folder is designated as the &gt; working directory; if not, they will need to manually set the &gt; working directory to the project folder. After that, there &gt; should be no need to change the working directory again.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p></li>
+<li><p>In the header for each script, include a note that (i) indicates &gt; which folder you have chosen as the working directory, &gt; and (ii) reminds the user to be sure that the chosen folder is &gt; in fact designated as the working directory before executing &gt; the script.</p></li>
+</ul></li>
+<li><p><strong>Use relative directory paths</strong>.</p>
+<ul>
+<li><p>A relative directory path is a path through the folders on the &gt; computer you are using that begins in whichever folder has &gt; been designated as the working directory and leads to a target &gt; folder (from which, for example, you wish to open an existing &gt; file, or in which you wish to save a newly created file).</p></li>
+<li><p>In your scripts, whenever you write a command in which you need &gt; to specify the location of a particular folder, you should do &gt; so using a relative directory path. You should not specify a &gt; directory path that begins in a particular folder on a &gt; particular computer (such as the C: drive on your computer).</p></li>
+</ul></li>
+</ol>
+<p>The three elements of the reproducibility trifecta are interrelated: when you write a relative directory path, you must know what folder is designated as the working directory (that is where the relative directory path starts), and you must know the structure of the folder hierarchy (since the relative directory path must specify how to navigate through that hierarchy to the target folder). Beginning students need guidance about how to properly synchronize their folder and file structure, the choice of the working directory, and the relative directory paths they write in their scripts. But by introducing these concepts in simple setting, version 4 of the exercise makes it easy for them to grasp how the pieces fit together.</p>
 </section>
 </section>
 <section id="conclusion" class="level2">
 <h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
-<p>I will conclude by providing some thoughts about where the gaps are and where we need to continue to make progress.</p>
-<p>First, we need to continue to revisit the staffing of the Data Editor’s operation. Are the resources sufficient for the needed work?</p>
-<p>Second, we need to devise approaches to deal with confidential data. It is increasingly common for AEA journal papers to use proprietary or confidential data. Examples include government administrative data, data from firms, and so on. Researchers typically do not have the ability to post this data. Therefore, replication and reproducibility has to get over a very large hurdle with these data.</p>
-<p>Third, we need to build on the success of pre-registration of RCTs. For example, should the journal require pre-registration? Should this be expanded to pre-registration of quasi experimental papers? And relatedly, should the AEA create an RCT Editor to check compliance with pre-registration plan?</p>
-<p>Finally, we need do more analysis and landscaping to investigate to where the gaps are in the Economics discipline more broadly, and what role the AEA can take to continue to move us towards further progress in open science.</p>
+<section id="standards-of-reproducibility" class="level3">
+<h3 class="anchored" data-anchor-id="standards-of-reproducibility">Standards of reproducibility</h3>
+<p>The reproducibility trifecta makes it possible to achieve two important standards of reproducibility, which we refer to as (i) <strong><em>(almost) automated reproducibility</em></strong> and (ii) <strong><em>portable reproducibility.</em></strong></p>
+<p>Automated reproducibility means that, once a user has copied the project folder onto their own computer, the computations that generate and save the results can be reproduced just by running the scripts, with no need to do anything by hand (such as editing directory paths in scripts or moving files from one folder to another).</p>
+<p>Synchronizing the folder hierarchy, working directory, and relative directory paths according the principles of the reproducibility trifecta ensures that automated reproduction is possible—almost. Before the scripts can be executed, there is one task the user needs to complete by hand, namely setting the working directory to whatever folder has been designated by the author. Hence the qualifier "almost" before the term "automated reproducibility".</p>
+<p>The standard of portable reproducibility is that any user should be able to perform an (almost) automated reproduction of someone else’s project on their own computer. Provided they have the necessary software installed, they should be able to copy the project folder and all its contents onto their computer, and then (after setting the working directory as necessary) run the scripts that reproduce the results.</p>
+<p>The key to achieving portable reproducibility is that all directory paths specified in the scripts must begin and end in folders on the user’s computer. Because the reproducibility trifecta specifies that the working directory should be set to the project folder (or one of its subfolders), and that folder locations should be given by relative directory paths beginning in the working directory, this condition is satisfied the moment a user copies the project folder onto their own computer.</p>
+<p>(Almost) automated reproducibility and portability are state of the art standards for professional social science research; they are among the properties that leading conventions such as the AEA Data Editor’s guidelines and the DIME Manual are intended to achieve. The four versions of the exercise we have presented show that these professional standards can be introduced to students in introductory level classes via a sequence of modest, feasible innovations.</p>
 </section>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section"></h2>
+<section id="bells-and-whistles" class="level3">
+<h3 class="anchored" data-anchor-id="bells-and-whistles">Bells and whistles</h3>
+<p>To make the fundamental principles and practices as transparent as possible, we have presented a simple exercise that excludes a number of important elements of documentation. But once students have a foundation in the fundamentals, it is easy to introduce additional elements such as a read-me file, more complex directory structures, data citations, a master script, log files, and a data appendix, to name a few.</p>
+<p>Instructors looking for a more substantial project that introduces many of these peripherals, but is still accessible to students in introductory courses, might consider the <a href="http://www.projecttier.org"><u>Project TIER</u></a> exercise titled <a href="https://www.projecttier.org/tier-classroom/soup-nuts-exercises/#shorter-exercises-for-teaching-transparency-and-reproducibility:~:text=more%20to%20complete.-,The%20First%20Soup%2Dto%2DNuts%20Exercise%3A%20%22Animal%20House%20in%20Alcohol%2DFree%20Dorms%3F%22,-Download%20the%20first"><u>“Animal House in Alcohol-Free Dorms?”</u></a>. When students move beyond structured exercises and begin research projects of their own, they may benefit from the <a href="https://www.projecttier.org/tier-protocol/protocol-4-0/"><u>TIER Protocol</u></a>, which gives detailed guidance about the components of a comprehensive reproduction package. Examples of all the components of the documentation described in the TIER Protocol can be found in an accompanying <a href="https://www.projecttier.org/tier-protocol/demo-project/"><u>demo project</u></a>.</p>
+<p>TABLE 1: PROPERTIES OF THE FOUR VERSIONS OF THE EXERCISE</p>
+<table class="table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 31%">
+<col style="width: 26%">
+<col style="width: 23%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong> Version</strong></th>
+<th><strong>Elements of reproducibility introduced</strong></th>
+<th><strong>Work submitted by students</strong></th>
+<th><strong>How the report is written</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Version 1: In teractive</td>
+<td>None</td>
+<td>A report (a <em>.pdf</em> document)</td>
+<td>Text composed with a word processor; table and figure inserted by copying and pasting</td>
+</tr>
+<tr class="even">
+<td>Version 2: Scripted com putations</td>
+<td><ul>
+<li><p>Writing all commands in an executable script</p></li>
+<li><p>Keeping all files in a project folder</p></li>
+<li><p>Designating the project folder as the working directory</p></li>
+</ul></td>
+<td><p>A project folder, containing:</p>
+<ul>
+<li><p>a report (a &gt; <em>.pdf</em> &gt; document)</p></li>
+<li><p>the data &gt; file</p></li>
+<li><p>a script</p></li>
+</ul></td>
+<td>Text composed with a word processor; table and figure inserted by copying and pasting</td>
+</tr>
+<tr class="odd">
+<td>Version 3: Saving output</td>
+<td><ul>
+<li><p>All elements of version 2</p></li>
+<li><p>Writing additional commands in the script that save output files to the working directory</p></li>
+</ul></td>
+<td><p>A project folder, containing:</p>
+<ul>
+<li><p>a report (a &gt; <em>.pdf</em> &gt; document)</p></li>
+<li><p>the data &gt; file</p></li>
+<li><p>a script</p></li>
+<li><p>two output &gt; files</p></li>
+</ul></td>
+<td><p>Text composed with a word processor; table and figure inserted by copying and pasting</p>
+<p>or</p>
+<p>Text composed in a markup language; table and figure imported from output files</p></td>
+</tr>
+<tr class="even">
+<td>Version 4: A ssembling an (almost) a utomated, portable rep roduction package</td>
+<td><ul>
+<li><p>The reproducibility trifecta:</p>
+<ul>
+<li>Establishing &gt; a</li>
+</ul>
+<blockquote class="blockquote">
+<p>well-defined</p>
+</blockquote>
+<pre><code>&gt; folder
+&gt; hierarchy
+&gt; within the
+&gt; project
+&gt; folder</code></pre>
+<ul>
+<li><p>Designating &gt; the &gt; project &gt; folder as &gt; the &gt; working &gt; directory</p></li>
+<li><p>In scripts, &gt; use &gt; relative &gt; directory &gt; paths to &gt; specify &gt; locations &gt; of &gt; specific &gt; folders</p></li>
+</ul></li>
+</ul></td>
+<td><p>A project folder, containing:</p>
+<ul>
+<li><p>a report (a &gt; <em>.pdf</em> &gt; document)</p></li>
+<li><p>a <strong>Data</strong> &gt; subfolder, &gt; containing &gt; the data &gt; file</p></li>
+<li><p>a</p></li>
+</ul>
+<blockquote class="blockquote">
+<p><strong>Scripts</strong></p>
+</blockquote>
+<pre><code>&gt; subfolder,
+&gt; containing
+&gt; a script</code></pre>
+<ul>
+<li>an &gt; <strong>Output</strong> &gt; subfolder, &gt; containing &gt; two output &gt; files</li>
+</ul></td>
+<td><p>Text composed with a word</p>
+<p>processor; table and figure</p>
+<p>inserted by copying and pasting</p>
+<p>or</p>
+<p>Text composed in a markup</p>
+<p>language; table and figure</p>
+<p>imported from output files</p></td>
+</tr>
+</tbody>
+</table>
 
 
+</section>
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>Another common practice is to write a macro in the script that defines an absolute directory path starting in some particular folder on the author’s computer, and then indicate that other users should edit the macro so that it indicates an absolute directory path starting in some folder on the user’s computer. It strikes us as easier and simpler just to agree that every user needs to manually set the working directory to the project folder once at the beginning of each session, and then use relative directory paths starting there to specify folder and file locations.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
 </section>
 
 </main> <!-- /main -->
@@ -680,13 +850,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../../sessions/5/session5_intro.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Session 5: Disciplinary support: why is reproducibility not uniformly required across disciplines?</span>
+      <a href="../../../sessions/3/diego/index.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Data Citations and Reproducibility<br>
+in the Undergraduate Curriculum</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../../sessions/7/session7_intro.html" class="pagination-link">
-        <span class="nav-page-text">Session 7: Why can or should research institutions publish replication packages?</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../../sessions/4/session4_intro.html" class="pagination-link">
+        <span class="nav-page-text">Session 4: Reproducibility and confidential or proprietary data: can it be done?</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
