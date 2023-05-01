@@ -4,14 +4,21 @@ project:
     - "*.qmd"
 
 book:
-  title: "CRRESS"
+  title: "CRRESS Book"
   repo-url: https://github.com/labordynamicsinstitute/crress-book
   repo-actions: [edit]
-  downloads: [pdf]
+  # downloads: [pdf]
   navbar:
     search: true
     pinned: true
     logo: "images/LDI Conf CRRESS V4.png"
+    right:
+      - text: Learn More
+        menu:
+          - text: CRRESS Main
+            url: https://labordynamicsinstitute.github.io/crress/
+          - text: CRRESS Sessions
+            url: https://labordynamicsinstitute.github.io/crress/#projects
     # background: "#f8f8f8"
   subtitle: Conference on Reproducibility and Replicability in Economics and the Social Sciences
   cover-image: "images/LDI Conf CRRESS V4.png"
@@ -26,7 +33,6 @@ book:
   search: true
   chapters:
     - index.qmd
-    - events.qmd
     - about.qmd
     - part: sessions/1/session1_intro.qmd
       chapters:
