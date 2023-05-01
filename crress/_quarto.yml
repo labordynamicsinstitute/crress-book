@@ -38,6 +38,7 @@ book:
     - part: sessions/3/session3_intro.qmd
       chapters:
         - sessions/3/diego/index.qmd
+        - sessions/3/ball/index.qmd
     - part: sessions/4/session4_intro.qmd
       chapters:
         - sessions/4/guimaraes/index.qmd
