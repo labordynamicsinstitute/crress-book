@@ -56,6 +56,13 @@
     "text": "References\nHuntington-Klein, N., Arenas, A., Beam, E., Bertoni, M., Bloem, J.R., Burli, P. et al. (2021) The influence of hidden researcher decisions in applied microeconomics. Economic Inquiry, 59: 944– 960. https://doi.org/10.1111/ecin.12992"
   },
   {
+    "objectID": "sessions/session1/salmon/index.html#footnotes",
+    "href": "sessions/session1/salmon/index.html#footnotes",
+    "title": "Replication Packages for Journals: For and Against",
+    "section": "",
+    "text": "http://retractionwatch.com/2015/05/20/author-retracts-study-of-changing-minds-on-same-sex-marriage-after-colleague-admits-data-were-faked/↩︎\nhttps://www.apa.org/science/about/psa/2011/12/diederik-stapel↩︎\nhttps://retractionwatch.com/2022/05/31/cornell-food-marketing-researcher-who-retired-after-misconduct-finding-is-publishing-again/↩︎\nhttps://statements.cornell.edu/2018/20180920-statement-provost-michael-kotlikoff.cfm↩︎\nI note that in the discussion I think I said our submissions were more or less unchanged. I re-checked the data after and with the most up to date numbers we have had a small but noticeable drop.↩︎"
+  },
+  {
     "objectID": "sessions/session1/whited/index.html#introduction",
     "href": "sessions/session1/whited/index.html#introduction",
     "title": "Comments on Reproducibility in Finance and Economics",
@@ -88,7 +95,7 @@
     "href": "sessions/session2/session2_intro.html",
     "title": "Session 2 - Replication and IRB",
     "section": "",
-    "text": "Lorem ipsum dolor sit amet. Vel aliquid autem et deleniti deleniti qui labore vitae est soluta exercitationem est laborum culpa At numquam voluptas. Ab inventore sunt et ullam excepturi vel quod aspernatur aut consequatur voluptatum in modi perspiciatis. Eos repudiandae quod aut quia accusamus qui sunt deserunt sit officia ipsa eum soluta nesciunt qui voluptas velit ut quidem mollitia. Ea nostrum excepturi aut perspiciatis iusto qui porro adipisci.\nMolestiae facere aut voluptas beatae qui repudiandae iusto eos quibusdam culpa. Et nulla dolor in minima illo ad mollitia consequuntur eos odit ratione ut voluptatem eligendi ea unde ullam. Sed illo fuga eos doloremque deleniti ea mollitia voluptatibus nam officiis sint. Eos sunt molestias vel molestias alias id recusandae incidunt aut omnis culpa?\nAb minus consectetur ab eius quia non atque magnam est neque expedita aut voluptate asperiores in error consequatur et minima libero. Est deleniti voluptatem eos ratione reiciendis qui consequatur sunt et molestiae corrupti. Sit vitae quia ut suscipit necessitatibus et numquam nobis in nemo deserunt vel eius consequatur."
+    "text": "One of the most crucial dimensions that Institutional Review Boards are interested in are the protocols that researchers have in place to protect their subjects’ privacy. This often leads to researchers writing in their IRB protocols that they will destroy their data once their project is complete. Understandably, however, destruction of data makes it impossible to verify and replicate work, which is increasingly becoming a vital part of modern science. How should data privacy be handled in the wake of the replication crisis? What protocols and standards should be put in place to minimize the risk of data leakage? Or should data be destroyed after some time span?"
   },
   {
     "objectID": "sessions/session2/swauger/index.html#introduction",
