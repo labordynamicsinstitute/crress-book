@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Hilary Hoynes, Professor of Economics and Public Policy, UC Berkeley">
 
-<title>CRRESS - Reproducibility in Economics: Status and Update</title>
+<title>CRRESS - Session 2 - Replication and IRB</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,25 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<link href="../../../sessions/session7/session7_intro.html" rel="next">
-<link href="../../../sessions/session5/session5_intro.html" rel="prev">
-<script src="../../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../sessions/2/swauger/index.html" rel="next">
+<link href="../../sessions/1/whited/index.html" rel="prev">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,16 +72,16 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../../images/LDI Conf CRRESS V4.png" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/LDI Conf CRRESS V4.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../../../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">CRRESS</span>
     </a>
   </div>
         <div class="quarto-navbar-tools ms-auto tools-wide">
     <a href="https://github.com/labordynamicsinstitute/crress-book" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
-    <a href="../../../CRRESS.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
+    <a href="../../CRRESS.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
           <div id="quarto-search" class="" title="Search"></div>
@@ -93,7 +92,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../sessions/session5/session5_intro.html">Session 5: Disciplinary support: why is reproducibility not uniformly required across disciplines?</a></li><li class="breadcrumb-item"><a href="../../../sessions/session5/hoynes/index.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Reproducibility in Economics: Status and Update</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../sessions/2/session2_intro.html">Session 2 - Replication and IRB</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -115,22 +114,22 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Home</span></a>
+  <a href="../../index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Home</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../events.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Events</span></a>
+  <a href="../../events.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Events</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../about.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Contact Us</span></a>
+  <a href="../../about.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Contact Us</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../sessions/session1/session1_intro.html" class="sidebar-item-text sidebar-link">
+            <a href="../../sessions/1/session1_intro.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Session 1 - Institutional support: Should journals verify reproducibility?</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -139,19 +138,19 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../sessions/session1/salmon/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Replication Packages for Journals: For and Against</span></a>
+  <a href="../../sessions/1/salmon/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Replication Packages for Journals: For and Against</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../sessions/session1/whited/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Comments on Reproducibility in Finance and Economics</span></a>
+  <a href="../../sessions/1/whited/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Comments on Reproducibility in Finance and Economics</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../sessions/session2/session2_intro.html" class="sidebar-item-text sidebar-link">
+            <a href="../../sessions/2/session2_intro.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Session 2 - Replication and IRB</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -160,14 +159,14 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../sessions/session2/swauger/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Sex, Lies, and Data: New Models of Informed Consent</span></a>
+  <a href="../../sessions/2/swauger/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Sex, Lies, and Data: New Models of Informed Consent</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../sessions/session3/session3_intro.html" class="sidebar-item-text sidebar-link">
+            <a href="../../sessions/3/session3_intro.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Session 3 - Should teaching reproducibility be a part of undergraduate education or curriculum?</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -176,7 +175,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../sessions/session3/diego/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Data Citations and Reproducibility<br>
+  <a href="../../sessions/3/diego/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Data Citations and Reproducibility<br>
 in the Undergraduate Curriculum</span></a>
   </div>
 </li>
@@ -184,7 +183,7 @@ in the Undergraduate Curriculum</span></a>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../sessions/session4/session4_intro.html" class="sidebar-item-text sidebar-link">
+            <a href="../../sessions/4/session4_intro.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Session 4: Reproducibility and confidential or proprietary data: can it be done?</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -193,14 +192,14 @@ in the Undergraduate Curriculum</span></a>
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../sessions/session4/guimaraes/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Reproducibility with confidential data: The experience of BPLIM</span></a>
+  <a href="../../sessions/4/guimaraes/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Reproducibility with confidential data: The experience of BPLIM</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../sessions/session5/session5_intro.html" class="sidebar-item-text sidebar-link">
+            <a href="../../sessions/5/session5_intro.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Session 5: Disciplinary support: why is reproducibility not uniformly required across disciplines?</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -209,14 +208,14 @@ in the Undergraduate Curriculum</span></a>
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../sessions/session5/hoynes/index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Reproducibility in Economics: Status and Update</span></a>
+  <a href="../../sessions/5/hoynes/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Reproducibility in Economics: Status and Update</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../sessions/session7/session7_intro.html" class="sidebar-item-text sidebar-link">
+            <a href="../../sessions/7/session7_intro.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Session 7: Why can or should research institutions publish replication packages?</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -225,7 +224,7 @@ in the Undergraduate Curriculum</span></a>
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../sessions/session7/macdonald/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Open Data and Code at the Urban Institute</span></a>
+  <a href="../../sessions/7/macdonald/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Open Data and Code at the Urban Institute</span></a>
   </div>
 </li>
       </ul>
@@ -236,47 +235,21 @@ in the Undergraduate Curriculum</span></a>
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
-  <li><a href="#main-thoughts" id="toc-main-thoughts" class="nav-link" data-scroll-target="#main-thoughts">Main Thoughts</a>
-  <ul class="collapse">
-  <li><a href="#i.-the-possibly-unique-role-of-the-american-economic-association" id="toc-i.-the-possibly-unique-role-of-the-american-economic-association" class="nav-link" data-scroll-target="#i.-the-possibly-unique-role-of-the-american-economic-association">I. The (possibly unique) role of the American Economic Association</a></li>
-  <li><a href="#ii.-aea-actions" id="toc-ii.-aea-actions" class="nav-link" data-scroll-target="#ii.-aea-actions">II. AEA Actions</a></li>
-  </ul></li>
-  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
-  </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/labordynamicsinstitute/crress-book/edit/main/sessions/session5/hoynes/index.qmd" class="toc-action">Edit this page</a></p></div></div></nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Reproducibility in Economics: Status and Update</span></h1>
+<h1 class="title">Session 2 - Replication and IRB</h1>
 </div>
 
 
-<div class="quarto-title-meta-author">
-  <div class="quarto-title-meta-heading">Author</div>
-  <div class="quarto-title-meta-heading">Affiliation</div>
-  
-    <div class="quarto-title-meta-contents">
-    <p class="author">Hilary Hoynes, Professor of Economics and Public Policy, UC Berkeley </p>
-  </div>
-    <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            UC Berkeley and Berkeley Opportunity Lab
-          </p>
-      </div>
-    </div>
 
 <div class="quarto-title-meta">
 
-      
+    
   
     
   </div>
@@ -284,45 +257,9 @@ in the Undergraduate Curriculum</span></a>
 
 </header>
 
-<p>This article provides a status update on reproducibility in the Economics profession. This includes a particular emphasis on quantitative research. And a chronology of the role the American Economic Association has taken in this progress.</p>
-<section id="background" class="level2">
-<h2 class="anchored" data-anchor-id="background">Background</h2>
-<p>I am an economist and study poverty and inequality and the role of the social safety net in family and child wellbeing. I want to start by positioning myself and my background a little bit, as it relates to the conversation today. Over the past decade or more, I have engaged in a variety of professional service activities that are linked to reproducibility and open science. First, I am currently a member of the Committee on National Statistics at the National Academies of Science, Engineering and Medicine, where we discuss a range of issues around data, replication and reproducibility. I was a member of the Commission on Evidence Based Policymaking, and there we made recommendations around administrative data and linkages balancing access and privacy. I mention these experiences because in Economics there has been tremendous growth in the use of confidential, proprietary or administrative data and there are significant challenges in open science goals around these data. Second, I spent a decade as a Co-Editor of journals under the American Economic Association, first at AEJ: Economic Policy and subsequently at the American Economic Review, the flagship journal of the association. While a Co-Editor at the American Economic Review, and also a member of the AEA Executive Committee, I Co-Chaired the search committee for an AEA Data Editor. This is the position that Lars Vilbuber holds.</p>
-</section>
-<section id="main-thoughts" class="level2">
-<h2 class="anchored" data-anchor-id="main-thoughts">Main Thoughts</h2>
-<p>The theme of this session is how differences in support for reproducibility exist across the social sciences. Hence I organize my comments to focus on the status of reproducibility in Economics and what might make it different from other social sciences.</p>
-<section id="i.-the-possibly-unique-role-of-the-american-economic-association" class="level3">
-<h3 class="anchored" data-anchor-id="i.-the-possibly-unique-role-of-the-american-economic-association">I. The (possibly unique) role of the American Economic Association</h3>
-<p>The American Economic Association (AEA) has a lot of “market power” because it controls a large share of the high quality journal landscape. The AEA journals include the American Economic Review, the American Economic Review: Insights, and American Economic Journals (there are four of these), [as well as the Journal of Economic Literature and the Journal of Economic Perspectives]. The AEA started with the American Economic Review (AER) and is one of the “top 5” general interest publications in Economics. The AER became so clogged with quality submissions and accepted papers (with 2 year waits between acceptance and publication) that the AEA expanded the number of issues that they produced per year. This led the AER to publish a disproportionate share of the articles in Economics top 5 journals.</p>
-<p>Following the success of the AEA journals and the strong budget situation at the association, the AEA decided to expand and add additional journals to its portfolio. We added AER: Insights, featuring short format articles with quick turnaround, in an attempt to compete with publications in Science and PNAS. We also added four top field journals to try to occupy the space just below the top 5, perhaps wrestling some of the market from for profit journals such as those published by Elsevier. This became the four American Economic Journals (AEJ) - AEJ: Applied Economics, AEJ: Economic Policy, AEJ: Microeconomics, and AEJ: Macroeconomics.</p>
-<p>So if you put this all together, there's a lot of the journal space (and highly ranked journal space) that the American Economic Association runs.</p>
-<p>With this “market power” and over period of time the association made a series of moves in the area of open science. This approach came about through both top down and bottom up mechanisms. There was definitely interest among the AEA Executive Committee including the lead editors of the American Economic Review, first Penny Goldberg followed by Esther Duflo. But there was also a perspective that percolated up from the membership. This may have come in part in response to the replication crises in other disciplines. Additionally, many of us engaged in training graduate students desired data for students to get practice and skills.</p>
-<p>Overall, I think the AEA views itself as having the potential to take actions that set standards that are adopted more broadly in the profession. (I hope the association takes the same approach to dealing with sexual harassment in Economics.)</p>
-</section>
-<section id="ii.-aea-actions" class="level3">
-<h3 class="anchored" data-anchor-id="ii.-aea-actions">II. AEA Actions</h3>
-<p>So what did the AEA do?</p>
-<p>They set up the AEA RCT Registry. As stated on the website: “Randomized Controlled Trials (RCTs) are widely used in various fields of economics and other social sciences. As they become more numerous, a central registry on which trials are on-going or complete (or withdrawn) becomes important for various reasons: as a source of results for meta-analysis; as a one-stop resource to find out about available survey instruments and data. Because existing registries are not well suited to the need for social sciences, in April 2012, the AEA executive committee decided to establish such a registry for economics and other social sciences.”</p>
-<p>Second, and more pertinent to this conversation, the American Economic Review adopted a requirement to post data and code for all accepted papers. It initially was very much on the honor system but it was felt that this was a good first step. There were some staff who worked on confirming that files were uploaded, but not much beyond that.</p>
-<p>After some time, there was an evaluation of how this was going. The answer was, not so well. Often times, the data and code would be incomplete. Documentation would be insufficient. It would be difficult for reuse, and it wasn't replicable. There was a recognition that you need skilled leadership and staff for this to work.</p>
-<p>This led to the next stage of open science at the AEA. We recognized that we had the budget to do more. The AEA compensates all journal editors a pretty fair wage for the work. And the view was perhaps we should take the next step to hire someone who would work with the journal editors as well as with the AEA Executive Committee to create a more robust system for reproducibility. There was a discussion about whether or not we wanted this individual to be a practicing academic who has skills in this area, or whether we just needed to build up more staffing. We reached out to folks in other disciplines to find out what they were doing. We liked the model at the American Statistical Association who had appointed an academic researcher who also had skills in open science.</p>
-<p>We had a search for this new position which we called the AEA Data Editor. From the job ad, the data editor would “Collaborate with journal editors and executive committee; design and oversee implementation of strategy for archiving &amp; curating data, promoting reproducible research.” In short, we needed an architect of the new system as well as a manager and implementer. We were lucky to attract Lars Vilhuber to the position. He is a practicing academic researcher who also has the skills in open science, and could work at the frontier.</p>
-</section>
-</section>
-<section id="conclusion" class="level2">
-<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
-<p>I will conclude by providing some thoughts about where the gaps are and where we need to continue to make progress.</p>
-<p>First, we need to continue to revisit the staffing of the Data Editor’s operation. Are the resources sufficient for the needed work?</p>
-<p>Second, we need to devise approaches to deal with confidential data. It is increasingly common for AEA journal papers to use proprietary or confidential data. Examples include government administrative data, data from firms, and so on. Researchers typically do not have the ability to post this data. Therefore, replication and reproducibility has to get over a very large hurdle with these data.</p>
-<p>Third, we need to build on the success of pre-registration of RCTs. For example, should the journal require pre-registration? Should this be expanded to pre-registration of quasi experimental papers? And relatedly, should the AEA create an RCT Editor to check compliance with pre-registration plan?</p>
-<p>Finally, we need do more analysis and landscaping to investigate to where the gaps are in the Economics discipline more broadly, and what role the AEA can take to continue to move us towards further progress in open science.</p>
-</section>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section"></h2>
+<p>One of the most crucial dimensions that Institutional Review Boards are interested in are the protocols that researchers have in place to protect their subjects’ privacy. This often leads to researchers writing in their IRB protocols that they will destroy their data once their project is complete. Understandably, however, destruction of data makes it impossible to verify and replicate work, which is increasingly becoming a vital part of modern science. How should data privacy be handled in the wake of the replication crisis? What protocols and standards should be put in place to minimize the risk of data leakage? Or should data be destroyed after some time span?</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -675,13 +612,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../../sessions/session5/session5_intro.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Session 5: Disciplinary support: why is reproducibility not uniformly required across disciplines?</span>
+      <a href="../../sessions/1/whited/index.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Comments on Reproducibility in Finance and Economics</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../../sessions/session7/session7_intro.html" class="pagination-link">
-        <span class="nav-page-text">Session 7: Why can or should research institutions publish replication packages?</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../sessions/2/swauger/index.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-title">Sex, Lies, and Data: New Models of Informed Consent</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -691,7 +628,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">Copyright 2022, Cornell University or with the authors</div>   
     <div class="nav-footer-center">
       &nbsp;
-    </div>
+    <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/labordynamicsinstitute/crress-book/edit/main/sessions/2/session2_intro.qmd" class="toc-action">Edit this page</a></p></div></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

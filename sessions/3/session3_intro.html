@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Paulo Guimarães">
 
-<title>CRRESS - Reproducibility with confidential data: The experience of BPLIM</title>
+<title>CRRESS - Session 3 - Should teaching reproducibility be a part of undergraduate education or curriculum?</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,25 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<link href="../../../sessions/session5/session5_intro.html" rel="next">
-<link href="../../../sessions/session4/session4_intro.html" rel="prev">
-<script src="../../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../sessions/3/diego/index.html" rel="next">
+<link href="../../sessions/2/swauger/index.html" rel="prev">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,16 +72,16 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../../images/LDI Conf CRRESS V4.png" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/LDI Conf CRRESS V4.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../../../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">CRRESS</span>
     </a>
   </div>
         <div class="quarto-navbar-tools ms-auto tools-wide">
     <a href="https://github.com/labordynamicsinstitute/crress-book" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
-    <a href="../../../CRRESS.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
+    <a href="../../CRRESS.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
           <div id="quarto-search" class="" title="Search"></div>
@@ -93,7 +92,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../sessions/session4/session4_intro.html">Session 4: Reproducibility and confidential or proprietary data: can it be done?</a></li><li class="breadcrumb-item"><a href="../../../sessions/session4/guimaraes/index.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Reproducibility with confidential data: The experience of BPLIM</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../sessions/3/session3_intro.html">Session 3 - Should teaching reproducibility be a part of undergraduate education or curriculum?</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -115,22 +114,22 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Home</span></a>
+  <a href="../../index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Home</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../events.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Events</span></a>
+  <a href="../../events.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Events</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../about.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Contact Us</span></a>
+  <a href="../../about.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Contact Us</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../sessions/session1/session1_intro.html" class="sidebar-item-text sidebar-link">
+            <a href="../../sessions/1/session1_intro.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Session 1 - Institutional support: Should journals verify reproducibility?</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -139,19 +138,19 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../sessions/session1/salmon/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Replication Packages for Journals: For and Against</span></a>
+  <a href="../../sessions/1/salmon/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Replication Packages for Journals: For and Against</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../sessions/session1/whited/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Comments on Reproducibility in Finance and Economics</span></a>
+  <a href="../../sessions/1/whited/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Comments on Reproducibility in Finance and Economics</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../sessions/session2/session2_intro.html" class="sidebar-item-text sidebar-link">
+            <a href="../../sessions/2/session2_intro.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Session 2 - Replication and IRB</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -160,14 +159,14 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../sessions/session2/swauger/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Sex, Lies, and Data: New Models of Informed Consent</span></a>
+  <a href="../../sessions/2/swauger/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Sex, Lies, and Data: New Models of Informed Consent</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../sessions/session3/session3_intro.html" class="sidebar-item-text sidebar-link">
+            <a href="../../sessions/3/session3_intro.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Session 3 - Should teaching reproducibility be a part of undergraduate education or curriculum?</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -176,7 +175,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../sessions/session3/diego/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Data Citations and Reproducibility<br>
+  <a href="../../sessions/3/diego/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Data Citations and Reproducibility<br>
 in the Undergraduate Curriculum</span></a>
   </div>
 </li>
@@ -184,7 +183,7 @@ in the Undergraduate Curriculum</span></a>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../sessions/session4/session4_intro.html" class="sidebar-item-text sidebar-link">
+            <a href="../../sessions/4/session4_intro.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Session 4: Reproducibility and confidential or proprietary data: can it be done?</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -193,14 +192,14 @@ in the Undergraduate Curriculum</span></a>
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../sessions/session4/guimaraes/index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Reproducibility with confidential data: The experience of BPLIM</span></a>
+  <a href="../../sessions/4/guimaraes/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Reproducibility with confidential data: The experience of BPLIM</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../sessions/session5/session5_intro.html" class="sidebar-item-text sidebar-link">
+            <a href="../../sessions/5/session5_intro.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Session 5: Disciplinary support: why is reproducibility not uniformly required across disciplines?</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -209,14 +208,14 @@ in the Undergraduate Curriculum</span></a>
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../sessions/session5/hoynes/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Reproducibility in Economics: Status and Update</span></a>
+  <a href="../../sessions/5/hoynes/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Reproducibility in Economics: Status and Update</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../../sessions/session7/session7_intro.html" class="sidebar-item-text sidebar-link">
+            <a href="../../sessions/7/session7_intro.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Session 7: Why can or should research institutions publish replication packages?</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -225,7 +224,7 @@ in the Undergraduate Curriculum</span></a>
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../sessions/session7/macdonald/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Open Data and Code at the Urban Institute</span></a>
+  <a href="../../sessions/7/macdonald/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Open Data and Code at the Urban Institute</span></a>
   </div>
 </li>
       </ul>
@@ -236,90 +235,31 @@ in the Undergraduate Curriculum</span></a>
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
-  <li><a href="#main-thoughts" id="toc-main-thoughts" class="nav-link" data-scroll-target="#main-thoughts">Main Thoughts</a></li>
-  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
-  </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/labordynamicsinstitute/crress-book/edit/main/sessions/session4/guimaraes/index.qmd" class="toc-action">Edit this page</a></p></div></div></nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Reproducibility with confidential data: The experience of BPLIM</span></h1>
+<h1 class="title">Session 3 - Should teaching reproducibility be a part of undergraduate education or curriculum?</h1>
 </div>
 
 
-<div class="quarto-title-meta-author">
-  <div class="quarto-title-meta-heading">Author</div>
-  <div class="quarto-title-meta-heading">Affiliation</div>
-  
-    <div class="quarto-title-meta-contents">
-    <p class="author">Paulo Guimarães </p>
-  </div>
-    <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            Banco de Portugal, BPLIM
-          </p>
-      </div>
-    </div>
 
 <div class="quarto-title-meta">
 
-      
+    
   
     
   </div>
   
-<div>
-  <div class="abstract">
-    <div class="abstract-title">Abstract</div>
-    Access to confidential data is often seen as a major obstacle to reproducibility. The Banco de Portugal microdata laboratory (BPLIM) has been providing access to confidential data for research purposes since 2016. Based on our experience, we argue that our data access model is an opportunity to demand that researchers integrate good reproducibility practices into their research process. Our goal is to automate the production of a reproducibility package as part of the researcher’s process of analyzing confidential data. We hope that this approach can overcome the limitations of working with confidential data and help certify reproducibility with confidential data. The approach we propose can also be adopted by researchers using non-confidential datasets.
-  </div>
-</div>
 
 </header>
 
-<section id="background" class="level2">
-<h2 class="anchored" data-anchor-id="background">Background</h2>
-<p>The Banco de Portugal Microdata Laboratory (BPLIM) was established in 2016 with the primary goal of promoting external research on the Portuguese economy by making available data sets collected and maintained by Banco de Portugal (BdP). By making this information available to researchers from around the world, BdP aims to support the development of evidence-based policies and insights that can benefit the Portuguese economy and society. However, given that some of these data sets contain highly sensitive information BPLIM had to implement a data access solution that preserved the confidentiality of the data.</p>
-<p>The common approach by other Research Data Centers that make confidential data available for research involves the provision of on-site access to accredited external researchers in a secure computing environment. However, in the case of BPLIM this approach was deemed undesirable for two reasons. First, because it would limit access to a handful of researchers who were able to come to the Bank's premises. Second, because there were still concerns that a breach of confidentiality might occur if individuals from outside the bank could gain access to original data sets that contained confidential information.</p>
-<p>After an internal debate at the Bank it was decided that the solution to be adopted by BPLIM had to be based on the following principles:</p>
-<p>- access free of charge and only for scientific purposes;</p>
-<p>- all data should be analyzed on the servers of the Bank;</p>
-<p>- external researchers were granted remote access to the server;</p>
-<p>- confidential datasets placed on the server had to always be perturbed/masked;</p>
-<p>- researchers could always ask BPLIM staff to run their scripts on the original data.</p>
-<p>The general workflow defined for data access at BPLIM was the following. After a research project is approved and the external researchers are accredited an account is opened on the BPLIM external server. External researchers gain access to a computing environment that does not allow users to transfer files to and from the server. They have access to a restricted area where standard software such as <em>Stata</em>, <em>R</em>, <em>Julia</em> and <em>Python</em> are available. Since there is no connection to the internet, installation of specific packages has to be requested from the staff. The datasets for the project are placed in a read-only folder. For the confidential datasets what is placed in the account of the researcher are perturbed versions of the data (noise is added to the original data). The researcher implements all scripts based on the data he/she has available and produces the (non-valid) outputs required for the project. Once researchers complete this task, they can ask BPLIM staff to rerun their scripts, this time using the original confidential data. For this process to be successful BPLIM staff must first run the scripts using the same data as the researcher to verify that the scripts written by the researchers reproduce exactly the outputs (typically graphs and/or tables). This process is done in a different server (BPLIM internal server). Only upon completion of this first step can BPLIM staff modify the scripts, this time to read the original data and regenerate the intended outputs . These outputs are then subject to standard output control checks for confidential data and delivered to the researcher.</p>
-</section>
-<section id="main-thoughts" class="level2">
-<h2 class="anchored" data-anchor-id="main-thoughts">Main Thoughts</h2>
-<p>Over time we have come to realize that this somewhat cumbersome process of running the code thrice, first by the researcher on the perturbed data, second by BPLIM staff again on the perturbed data, and finally, on the original data was in fact an exercise on reproducibility. Even though the reproducibility check was on the perturbed data it was already a very good assurance that a reproducibility check would hold on the original data.</p>
-<p>We realized that a great deal of our work involved reproducing the results obtained by the researchers with the perturbed data and that led us to look at ways to improve our workflow. It became obvious that the process could be streamlined and would be more efficient if researchers adhered to the best practices on reproducibility. Hence, as part of our strategy, we have decided to raise awareness of our researchers to the need of implementing good practices on reproducible research. We have been doing this by several means. For example, we have held practical workshops which are designed to enhance the skills of our researchers. For these workshops we invite leading experts to present best practices and recent developments on data analysis. We also provide direct advice to the researchers, prepare templates and documentation, and make available tools that facilitate the analysis of our datasets (particularly for more complex tasks such as building a panel or calculation of specific variables).</p>
-<p>On the other end, it was also obvious that there was margin for improvement on our work sequence. One possible improvement was the assurance that the computing environment used by the researcher on BPLIM's external server was identical to that used by BPLIM staff when reproducing the code. Thus, for the case of researchers that work with open-source software, we have been incentivizing researchers to work with Singularity containers. This facilitates our work because we are sure that our reproducibility check is implemented in the same self-contained environment that was used by the researcher. Researchers that use Stata can resort to containers but in that case, it is easier to control the environment because we install all packages on a folder that is specific to each project and have developed tools that facilitate comparison of the Stata ado files across environments. (all tools are publicly available and can be found at https://github.com/BPLIM/Tools/tree/master/ados/General.)</p>
-<p>More recently, we have worked on shifting the burden of the reproducibility check to the researcher itself. We are developing an application that we are presently testing with a select number of researchers. The application is targeted mainly at researchers that use BPLIM's (perturbed) confidential datasets but we hope to eventually convince all other users to take advantage of it. To illustrate, we provide a screenshot of the application:</p>
-<p><img src="media/image1.png" style="width:6.5in;height:3.80694in"></p>
-<p>Figure - BPLIM Replication tool – selecting input files</p>
-<p>Before requesting a replication from BPLIM using the original data the researcher must first validate his/her code by successfully submitting the scripts through BPLIM's Replication application. The process involves selecting the main script as well as all the required dependencies created by the researcher. The folder structure used by the researcher is replicated and the BPLIM datasets have to be read from the (read-only) data folder. All intermediary output files must be created during the replication (it is however possible to start from an intermediary output file. In that case, the intermediary file must have been validated in a prior run. BPLIM will then copy the file to the (read-only) data folder.).</p>
-<p><img src="media/image2.png" style="width:6.5in;height:3.80903in"></p>
-<p>Figure - The BPLIM Replication tool - finished task</p>
-<p>The researcher then uses the application to run the code (see Figure 2 for a completed run). The code must run from top-to-bottom and produce no errors. If the run is successful, then implementation on the original data requires only that BPLIM staff changes the relative paths to the data folder and rerun the code. A side advantage of this process is that it automatically produces a replication package for the researcher. Stored in the folder are all replication scripts, the output files, as well as two additional files, one fully characterizing the software environment, and another <em>json</em> file containing a listing of all scripts used in the replication. If we add the definition file used to produce the container (or a listing of all packages and respective versions) then we have a full replication package (except for the data).</p>
-</section>
-<section id="conclusion" class="level2">
-<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
-<p>Our goal at BPLIM is to make sure that all researchers create their replication packages as an integrated part of their research process. The fact that we are the ones running the code on the original data should be seen as an opportunity to request that researchers make reproducible code while implementing their research.</p>
-<p>In the ideal situation that we envision, researchers download a template for the definition file of the Singularity container, customize that template by adding and testing the packages they need, and share with us the definition file. Based on that definition file we build the container for the project and make it available on our external server. The researcher then uses the container to implement the analysis and when he/she is ready to obtain results based on the original data he must first validate the scripts using our application. The researcher can go through this process multiple times and each time a replication package will be created. Apart from the data, all files can be publicly shared, and the replication package created at BPLIM should be easily customized for submission to any data editor.</p>
-<p>We are already implementing this solution for all new projects that use confidential data. However, we hope that over time we can convince all researchers at BPLIM to work with Singularity containers and go through the same validation steps that are needed for projects that deal with confidential data.</p>
-<p>Projects that are implemented in BPLIM have additional advantages when it comes to reproducibility. First, because all BPLIM datasets are versioned and registered with a Digital Object Identifier (DOI) we are sure that the original data is exactly identified. Second, the computing environment is stable, and the software packages used by researchers are specific to each project. Finally, if external researchers have used BPLIM confidential data then there is an assurance that their code was reproduced at some point.</p>
-<p>Ultimately, whether the scientific work is reproducible depends on the researchers. But we hope that integrating reproducibility into the research process with confidential data, provides a way to alleviate the inconvenience of third parties that cannot access the original data and want to verify reproducibility of the results.</p>
+<p>This session was held at the Southern Economics Association meeting on November 20th, 2020. Panelists discussed teaching reproducibility (TIER Protocol), the involvement of undergraduates for replications based on restricted-access data, and other topics.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -672,13 +612,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../../sessions/session4/session4_intro.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Session 4: Reproducibility and confidential or proprietary data: can it be done?</span>
+      <a href="../../sessions/2/swauger/index.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Sex, Lies, and Data: New Models of Informed Consent</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../../sessions/session5/session5_intro.html" class="pagination-link">
-        <span class="nav-page-text">Session 5: Disciplinary support: why is reproducibility not uniformly required across disciplines?</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../sessions/3/diego/index.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-title">Data Citations and Reproducibility<br>
+in the Undergraduate Curriculum</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -688,7 +629,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">Copyright 2022, Cornell University or with the authors</div>   
     <div class="nav-footer-center">
       &nbsp;
-    </div>
+    <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/labordynamicsinstitute/crress-book/edit/main/sessions/3/session3_intro.qmd" class="toc-action">Edit this page</a></p></div></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
