@@ -51,6 +51,7 @@ book:
     - part: sessions/5/session5_intro.qmd
       chapters:
         - sessions/5/hoynes/index.qmd
+        - sessions/5/weeden/index.qmd
     - part: sessions/7/session7_intro.qmd
       chapters:
         - sessions/7/macdonald/index.qmd
