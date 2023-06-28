@@ -55,6 +55,13 @@ book:
     - part: sessions/7/session7_intro.qmd
       chapters:
         - sessions/7/macdonald/index.qmd
+        - sessions/7/butler/index.qmd
+    - part: sessions/8/session8_intro.qmd
+      chapters:
+        - sessions/8/buck/index.qmd
+    - part: sessions/9/session9_intro.qmd
+      chapters:
+        - sessions/9/mcgrail/index.qmd
 format:
   html:
     theme: 
