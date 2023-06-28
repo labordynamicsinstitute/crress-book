@@ -1,0 +1,3 @@
+# Session 8: Should funders require reproducible archives?
+
+Both private and government funders of academic research have been increasingly requiring that data collected or created as part of funded research be made openly available. However, it is still rare that this requirement extends to computational artifacts, such as code, and even more rare that computational reproducibility is required. The panelists all work for funders, and have experience with various funding models and approaches. But only one of them currently enforces computational reproducibility of funded research.
