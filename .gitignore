@@ -2,10 +2,8 @@
 __pycache__/
 *.py[cod]
 *$py.class
-crress/
 _book/
 .DS_Store
-
 _site/
 # C extensions
 *.so
