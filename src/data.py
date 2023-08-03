@@ -17,8 +17,8 @@ class Paper:
     def extension(self):
         return self.main_file.suffix.replace(".", '')
     
-    def index_name(self):
-        return (self.converted_path / self.main_file.name).with_stem("index")
+    def index_name(self, stem = 'index'):
+        return (self.converted_path / self.main_file.name).with_stem(stem)
 
     
     def rename_to_index(self):

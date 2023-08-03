@@ -101,10 +101,10 @@ def pandoc_convert(paper: Paper, fmt : str=None, **kwargs):
         fmt=paper.extension()
     new_main_file_path = paper.index_name()
     return pypandoc.convert_file(str(new_main_file_path), 
-                                 'markdown+yaml_metadata_block', 
-                                 outputfile=str(new_main_file_path.with_suffix('.qmd')),
-                                 **kwargs
-                                 )
+                                'markdown+yaml_metadata_block', 
+                                outputfile=str(new_main_file_path.with_suffix('.qmd')),
+                                **kwargs
+                                )
     
 def jupytext_convert(paper: Paper, fmt: str=None):
     if fmt is None:
@@ -148,8 +148,10 @@ if __name__ == '__main__':
             paper.rename_to_index()
             
             # Handle conversion
-            if paper.extension().lower() in ['qmd', 'rmd']:
-                continue
+            if paper.extension().lower() in ['qmd', 'rmd', 'md']:
+                p = paper.index_name()
+                new_name = p.with_suffix('.qmd')
+                p.rename(new_name)
             elif paper.extension().lower() in ['ipynb'] :
                 jupytext_convert(paper, fmt='qmd')
             elif paper.extension().lower() in ['docx']:
@@ -190,44 +192,47 @@ if __name__ == '__main__':
                     f.writelines(contents)
                         
             # add affiliations to paper based on _config.yml
-
-            # load config from github:
-            site_config = requests.get(CRRESS_WEBSITE_CONFIG).text.replace("\t", "") # sanitize or else PyYAML doesn't load it
-            
-            crress_panelists = yaml.safe_load(site_config)['panelists']
-            
-            # get part of dict for that panelist
-            panelist_dict = get_panelist(crress_panelists, paper.name)
-            
-            with io.open(fname, 'r', encoding="utf-8-sig") as f:
-                print(f"Added affiliation for {paper.name}, affil: {panelist_dict['affiliation']}")
-                post = frontmatter.load(f)
+            if not paper.extension().lower() in ['qmd', 'rmd', 'md']:
+                # load config from github:
+                site_config = requests.get(CRRESS_WEBSITE_CONFIG).text.replace("\t", "") # sanitize or else PyYAML doesn't load it
                 
-                if not isinstance(post['author'], str) and len(post['author']) > 1:
-                    print("found more than one author")
-                    # get extra author affiliation
-                    tag = paper.main_file.parent.stem
-                    session = paper.main_file.parent.parent.stem
-                    if extra_authors.get(session) is not None:
-                        if extra_authors[session].get(tag) is not None:
-                            e_a = extra_authors[session][tag]
-                        else:
-                            print("couldn't find session for extra author")
-                    panelist_dict['affiliation'] = {
-                        panelist_dict['name'] : panelist_dict['affiliation'],
-                        e_a['name'] : e_a['affiliation']
-                    }
-                    
-                    panelist_dict['affiliation'] = list(panelist_dict['affiliation'].values())
-
-                if isinstance(post['author'], str) or (isinstance(post['author'], list) and len(post['author'])==1):
-                    post['author'] = [post['author']]
-                    panelist_dict['affiliation'] = [panelist_dict['affiliation']]
-                    
-                post['author'] = [{'name' : v } for v in post['author']]
+                crress_panelists = yaml.safe_load(site_config)['panelists']
                 
-                for d, p in zip(post['author'], panelist_dict['affiliation']):
-                    d.update({'affiliations' : p})
-                newfile = io.open(fname, 'wb')
-                frontmatter.dump(post, newfile)
-                newfile.close()
+                # get part of dict for that panelist
+                panelist_dict = get_panelist(crress_panelists, paper.name)
+                
+                with io.open(fname, 'r', encoding="utf-8-sig") as f:
+                    print(f"Added affiliation for {paper.name}, affil: {panelist_dict['affiliation']}")
+                    post = frontmatter.load(f)
+                    
+                    if not isinstance(post['author'], str) and len(post['author']) > 1:
+                        print("found more than one author")
+                        # get extra author affiliation
+                        tag = paper.main_file.parent.stem
+                        session = paper.main_file.parent.parent.stem
+                        if extra_authors.get(session) is not None:
+                            if extra_authors[session].get(tag) is not None:
+                                e_a = extra_authors[session][tag]
+                            else:
+                                print("couldn't find session for extra author")
+                        panelist_dict['affiliation'] = {
+                            panelist_dict['name'] : panelist_dict['affiliation'],
+                            e_a['name'] : e_a['affiliation']
+                        }
+                        
+                        panelist_dict['affiliation'] = list(panelist_dict['affiliation'].values())
+
+                    if isinstance(post['author'], str) or (isinstance(post['author'], list) and len(post['author'])==1):
+                        post['author'] = [post['author']]
+                        panelist_dict['affiliation'] = [panelist_dict['affiliation']]
+                        
+                    post['author'] = [{'name' : v } for v in post['author']]
+                    
+                    if post.get('bibliography') is not None:
+                        print()
+                                    
+                    for d, p in zip(post['author'], panelist_dict['affiliation']):
+                        d.update({'affiliations' : p})
+                    newfile = io.open(fname, 'wb')
+                    frontmatter.dump(post, newfile)
+                    newfile.close()

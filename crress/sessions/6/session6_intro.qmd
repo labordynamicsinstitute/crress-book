@@ -1,0 +1,3 @@
+# Session 6: Institutional support: How do journal reproducibility verification services work?
+
+When journals conduct active verification of replication packages, including accessing data and running code, how does that work? Can journals with limited resources still assess reproducibility? What depth of verification is optimal? Do journals provide a clear indication of whether an article was successfully reproduced?
