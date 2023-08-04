@@ -14,6 +14,10 @@ title: 'Data Citations and Reproducibility\
   '
 ---
 
+::: {.callout-note title="Published in HDSR 5.3" icon=false}
+[10.1162/99608f92.c2835391](https://doi.org/10.1162/99608f92.c2835391)
+:::
+
 **Disclaimer**: The views expressed in this article are those of the
 authors and don\'t necessarily reflect the position of the Federal
 Reserve Bank of St. Louis or the Federal Reserve System.

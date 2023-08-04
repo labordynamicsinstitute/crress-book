@@ -8,7 +8,7 @@ _site/
 # C extensions
 *.so
 
-crress/sessions/**
+crress/
 !cress/sessions/*/session*
 
 # Distribution / packaging

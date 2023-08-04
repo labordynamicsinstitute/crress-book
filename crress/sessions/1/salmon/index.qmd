@@ -20,6 +20,10 @@ author:
 title: 'Replication Packages for Journals: For and Against'
 ---
 
+::: {.callout-note title="Published in HDSR 5.3" icon=false}
+[10.1162/99608f92.db2a2554](https://doi.org/10.1162/99608f92.db2a2554)
+:::
+
 ## Background
 
 I have been on the editorial boards of many different journals for over

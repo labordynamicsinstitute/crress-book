@@ -12,6 +12,10 @@ author:
 title: '"Yes We Can!": A Practical Approach to Teaching Reproducibility to Undergraduates'
 ---
 
+::: {.callout-note title="Published in HDSR 5.3" icon=false}
+[10.1162/99608f92.9e002f7b](https://doi.org/10.1162/99608f92.9e002f7b)
+:::
+
 I thank Lars Vilhuber and Aleksandr Michuda for the opportunity to
 participate in the Conference. I acknowledge my debt to Barak Obama and
 Robert T. Builder for the inspirational slogan I have borrowed from them

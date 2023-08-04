@@ -29,7 +29,7 @@ book:
     right:
       - icon: home
         href: https://labordynamicsinstitute.github.io/crress/
-  # reader-mode: true
+  reader-mode: true
   search: true
   chapters:
     - index.qmd
@@ -59,6 +59,7 @@ book:
       chapters:
         - sessions/7/macdonald/index.qmd
         - sessions/7/butler/index.qmd
+        - sessions/7/peer/index.qmd
     - part: sessions/8/session8_intro.qmd
       chapters:
         - sessions/8/buck/index.qmd
