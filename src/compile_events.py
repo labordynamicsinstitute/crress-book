@@ -9,6 +9,7 @@ import frontmatter
 import yaml
 import requests
 import io
+from urllib.parse import urlparse
 
 from extra_authors import extra_authors
 
@@ -227,12 +228,20 @@ if __name__ == '__main__':
                         panelist_dict['affiliation'] = [panelist_dict['affiliation']]
                         
                     post['author'] = [{'name' : v } for v in post['author']]
-                    
-                    if post.get('bibliography') is not None:
-                        print()
                                     
                     for d, p in zip(post['author'], panelist_dict['affiliation']):
                         d.update({'affiliations' : p})
                     newfile = io.open(fname, 'wb')
                     frontmatter.dump(post, newfile)
                     newfile.close()
+                    
+            if panelist_dict.get('hdsr') is not None:
+                hdsr_callout = f"""\n::: {{.callout-note title="Published in HDSR 5.3" icon=false}}\n[{urlparse(panelist_dict['hdsr']).path[1:]}]({panelist_dict['hdsr']})\n:::\n"""
+                with open(fname, 'r') as f:
+                    index = f.readlines()
+                idx = [i for i, j in enumerate(index) if  j == '---\n'][1]
+                index.insert(idx+1, hdsr_callout)
+                
+                with open(fname, 'w') as f:
+                    f.writelines(index)
+                

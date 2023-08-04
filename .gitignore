@@ -8,6 +8,9 @@ _site/
 # C extensions
 *.so
 
+crress/sessions/**
+!cress/sessions/*/session*
+
 # Distribution / packaging
 .Python
 build/
@@ -129,3 +132,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.gitignore
