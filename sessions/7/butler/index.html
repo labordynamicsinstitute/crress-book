@@ -2,12 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Courtney Butler">
 
-<title>CRRESS Book - Prioritizing Transparency</title>
+<title>CRRESS Book - Publishing Replication Packages: Insights from the Federal Reserve Bank of Kansas City</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
-<link href="../../../sessions/8/session8_intro.html" rel="next">
+<link href="../../../sessions/7/peer/index.html" rel="next">
 <link href="../../../sessions/7/macdonald/index.html" rel="prev">
 <script src="../../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
@@ -102,9 +103,14 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
 </ul>
-            <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools tools-wide">
     <a href="https://github.com/labordynamicsinstitute/crress-book" rel="" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -114,7 +120,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../sessions/7/session7_intro.html">Session 7: Why can or should research institutions publish replication packages?</a></li><li class="breadcrumb-item"><a href="../../../sessions/7/butler/index.html"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Prioritizing Transparency</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../sessions/7/session7_intro.html">Session 7: Why can or should research institutions publish replication packages?</a></li><li class="breadcrumb-item"><a href="../../../sessions/7/butler/index.html"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">[]{#OLE_LINK1 .anchor}Publishing Replication Packages: Insights from the Federal Reserve Bank of Kansas City</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -272,7 +278,12 @@ in the Undergraduate Curriculum</span></a>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../sessions/7/butler/index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Prioritizing Transparency</span></a>
+  <a href="../../../sessions/7/butler/index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title"><span id="OLE_LINK1" class="anchor"></span>Publishing Replication Packages: Insights from the Federal Reserve Bank of Kansas City</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../sessions/7/peer/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Why and How We Share Reproducible Research</span></a>
   </div>
 </li>
       </ul>
@@ -324,7 +335,8 @@ in the Undergraduate Curriculum</span></a>
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#the-data-release-process" id="toc-the-data-release-process" class="nav-link active" data-scroll-target="#the-data-release-process">The Data Release Process</a></li>
+  <li><a href="#prioritizing-transparency1" id="toc-prioritizing-transparency1" class="nav-link active" data-scroll-target="#prioritizing-transparency1">Prioritizing Transparency</a></li>
+  <li><a href="#the-data-release-process" id="toc-the-data-release-process" class="nav-link" data-scroll-target="#the-data-release-process">The Data Release Process</a></li>
   <li><a href="#resourcing-considerations" id="toc-resourcing-considerations" class="nav-link" data-scroll-target="#resourcing-considerations">Resourcing Considerations</a></li>
   <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
   </ul>
@@ -335,24 +347,59 @@ in the Undergraduate Curriculum</span></a>
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Prioritizing Transparency</span></h1>
+<h1 class="title"><span class="chapter-title"><span id="OLE_LINK1" class="anchor"></span>Publishing Replication Packages: Insights from the Federal Reserve Bank of Kansas City</span></h1>
 </div>
 
 
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Courtney Butler </p>
+  </div>
+    <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Kansas City Federal Reserve Bank
+          </p>
+      </div>
+    </div>
 
 <div class="quarto-title-meta">
 
-    
+      
   
     
   </div>
   
+<div>
+  <div class="abstract">
+    <div class="abstract-title">Abstract</div>
+    <span id="OLE_LINK2" class="anchor"></span>Research institutions play a vital role in generating robust research findings. However, their role in disseminating the evidence underlying those findings – particularly for the purposes of replication – is often less clear. Many economic journals are beginning to provide guidance and infrastructure for replication packages, but this is far from standard and does not account for organizations that self-publish. Researchers seeking to share replication materials must also navigate barriers such as controls around sensitive and proprietary data. Thus, there is an open question about the degree to which research institutions can and should participate in the publication of replication packages. The Federal Reserve Bank of Kansas City has chosen to focus our resources on curation in order to balance our mission-driven orientation, security considerations, and capacity limitations. The rationale and resulting procedures described below provide one possible model for involvement in the publication process, but it is based on a unique combination of factors that influence our decision-making. Each organization’s landscape and priorities will help dictate the most suitable configuration.
+  </div>
+</div>
 
 </header>
 
+<div class="callout callout-style-default callout-note no-icon callout-titled" title="Published in HDSR 5.3">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Published in HDSR 5.3
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><a href="https://doi.org/10.1162/99608f92.aba61304">10.1162/99608f92.aba61304</a></p>
+</div>
+</div>
+<section id="prioritizing-transparency1" class="level1">
+<h1>Prioritizing Transparency<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></h1>
 <p>The Federal Reserve Bank of Kansas City (FRB KC) operates with a mission to work in the public's interest by supporting economic and financial stability. Central to this mission is public and community engagement that emphasizes trust along with core values such as integrity and service. These characteristics point towards a strong organizational alignment with the foundational principles of replication, namely transparency.</p>
-<p>When FRB KC first began exploring reproducibility in earnest, our researchers were sharing data on an infrequent, ad-hoc basis with full responsibility for preparing and disseminating their own replication packages. However, growing library services and evolving journal expectations drove us to reconsider our approach. An internal data preservation initiative posed questions about what types of data we should preserve and, importantly, why. As we considered the historical and administrative purposes of research data, we also examined preservation policies and practices in economic journals to better understand the state of the field<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. There, we found a steadily increasing trend in journals requiring or strongly recommending the inclusion of replication packages as part of the publication process.</p>
+<p>When FRB KC first began exploring reproducibility in earnest, our researchers were sharing data on an infrequent, ad-hoc basis with full responsibility for preparing and disseminating their own replication packages. However, growing library services and evolving journal expectations drove us to reconsider our approach. An internal data preservation initiative posed questions about what types of data we should preserve and, importantly, why. As we considered the historical and administrative purposes of research data, we also examined preservation policies and practices in economic journals to better understand the state of the field<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. There, we found a steadily increasing trend in journals requiring or strongly recommending the inclusion of replication packages as part of the publication process.</p>
 <p>With both our mission and industry trends in mind, FRB KC ultimately decided to prioritize a high degree of transparency in our approach to sharing replication packages. Our researchers’ findings inform important economic policies and decision-making, and we determined that a focus on openness was one way FRB KC could tangibly demonstrate our ongoing commitment to integrity and public trust. Thus, we elected to establish a formal process to enable researchers to share underlying data to the extent possible.</p>
+</section>
 <section id="the-data-release-process" class="level1">
 <h1>The Data Release Process</h1>
 <p>Researchers initiate the data release process, and the Research Library coordinates the subsequent steps. These steps include legal reviews of contracts and terms of use, information security assessments, and the creation of a comprehensive ReadMe document. The ReadMe document contains vital information such as licenses, file descriptions, instructions for usage, data source references, and fixity details to ensure long-term usability.</p>
@@ -376,7 +423,8 @@ in the Undergraduate Curriculum</span></a>
 <section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
 <hr>
 <ol>
-<li id="fn1"><p>Butler, C. R. &amp; Currier, B. D. (2017). You can’t replicate what you can’t find: Data preservation policies in economic journals. Presentation to the International Association for Social Science Information Services &amp; Technology (IASSIST) Conference, Lawrence, KS. Available at <a href="http://doi.org/10.17605/OSF.IO/HF3DS" class="uri">http://doi.org/10.17605/OSF.IO/HF3DS</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>The views expressed herein are those of the author and do not necessarily represent the views of the Federal Reserve Bank of Kansas City or the Federal Reserve System.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Butler, C. R. &amp; Currier, B. D. (2017). You can’t replicate what you can’t find: Data preservation policies in economic journals. Presentation to the International Association for Social Science Information Services &amp; Technology (IASSIST) Conference, Lawrence, KS. Available at <a href="http://doi.org/10.17605/OSF.IO/HF3DS" class="uri">http://doi.org/10.17605/OSF.IO/HF3DS</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 
@@ -736,8 +784,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../../sessions/8/session8_intro.html" class="pagination-link">
-        <span class="nav-page-text">Session 8: Should funders require reproducible archives?</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../../sessions/7/peer/index.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-title">Why and How We Share Reproducible Research</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
