@@ -191,16 +191,17 @@ if __name__ == '__main__':
                         
                 with open(paper.index_name().with_suffix(".qmd"), 'w') as f:
                     f.writelines(contents)
+                    
+            # load config from github:
+            site_config = requests.get(CRRESS_WEBSITE_CONFIG).text.replace("\t", "") # sanitize or else PyYAML doesn't load it
+            
+            crress_panelists = yaml.safe_load(site_config)['panelists']
+            
+            # get part of dict for that panelist
+            panelist_dict = get_panelist(crress_panelists, paper.name)
                         
             # add affiliations to paper based on _config.yml
             if not paper.extension().lower() in ['qmd', 'rmd', 'md']:
-                # load config from github:
-                site_config = requests.get(CRRESS_WEBSITE_CONFIG).text.replace("\t", "") # sanitize or else PyYAML doesn't load it
-                
-                crress_panelists = yaml.safe_load(site_config)['panelists']
-                
-                # get part of dict for that panelist
-                panelist_dict = get_panelist(crress_panelists, paper.name)
                 
                 with io.open(fname, 'r', encoding="utf-8-sig") as f:
                     print(f"Added affiliation for {paper.name}, affil: {panelist_dict['affiliation']}")
