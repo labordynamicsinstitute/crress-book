@@ -13,6 +13,8 @@ book:
     pinned: true
     logo: "images/LDI Conf CRRESS V4.png"
     right:
+      - text: Archive
+        url: https://ecommons.cornell.edu/collections/90b9b044-4fa7-4dc2-9c84-ee9ebb8ab3d8
       - text: Learn More
         menu:
           - text: CRRESS Main
