@@ -69,6 +69,9 @@ book:
       chapters:
         - sessions/9/mcgrail/index.qmd
         - sessions/9/taylor/index.qmd
+    - part: sessions/10/session10_intro.qmd
+      chapters:
+        - sessions/10/reif/index.qmd
 format:
   html:
     theme: 
