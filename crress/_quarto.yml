@@ -9,7 +9,7 @@ project:
 book:
   title: "CRRESS Book"
   repo-url: https://github.com/labordynamicsinstitute/crress-book
-  repo-actions: [edit]
+  repo-actions: [source, issue]
   # downloads: [pdf]
   navbar:
     search: true

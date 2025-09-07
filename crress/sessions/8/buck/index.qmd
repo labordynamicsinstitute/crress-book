@@ -5,7 +5,7 @@ author:
 title: 'We Should Do More Direct Replications in Science '
 ---
 
-::: {.callout-note title="Published in HDSR 6.3" icon=false}
-[99608f92.4eccc443](https://doi.org/10.1162/99608f92.4eccc4433)
+::: {.column-margin}
+[Published in HDSR 6.3](https://doi.org/10.1162/99608f92.4eccc4433)
 :::
 

@@ -5,7 +5,7 @@ author:
 title: 'Why and How We Share Reproducible Research at Yale University’s Institution for Social and Policy Studies'
 ---
 
-::: {.callout-note title="Published in HDSR 6.1" icon=false}
-[99608f92.dca148ba](https://doi.org/10.1162/99608f92.dca148ba)
+::: {.column-margin}
+[Published in HDSR 6.1](https://doi.org/10.1162/99608f92.dca148ba)
 :::
 
