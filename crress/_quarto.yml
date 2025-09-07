@@ -2,9 +2,6 @@ project:
   type: book
   render:
     - "*.qmd"
-  # Exclude all files in raw_writeups from processing
-  exclude:
-    - ../raw_writeups/**
 
 book:
   title: "CRRESS Book"
