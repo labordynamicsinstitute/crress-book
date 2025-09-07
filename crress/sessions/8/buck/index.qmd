@@ -19,7 +19,7 @@ title: We Should Do More Direct Replications in Science
 [Published in HDSR 6.3](https://doi.org/10.1162/99608f92.4eccc4433)
 :::
 
-# Introduction
+## Introduction
 
 As we have seen over the past several years, there are problems with
 replicating the academic literature in many fields. The Reproducibility
