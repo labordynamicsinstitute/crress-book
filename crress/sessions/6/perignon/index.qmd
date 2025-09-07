@@ -16,9 +16,8 @@ date: July 4, 2023
 title: The role of third-party verification in research reproducibility
 ---
 
-
-::: {.column-margin}
-[Published in HDSR 6.2](https://doi.org/10.1162/99608f92.6d4bf9eb)
+::: {.callout-note title="Published in HDSR 6.2" icon=false}
+[10.1162/99608f92.6d4bf9eb](https://doi.org/10.1162/99608f92.6d4bf9eb)
 :::
 
 

@@ -20,8 +20,8 @@ author:
 title: 'Replication Packages for Journals: For and Against'
 ---
 
-::: {.column-margin}
-[Published in HDSR 5.3](https://doi.org/10.1162/99608f92.db2a2554)
+::: {.callout-note title="Published in HDSR 5.3" icon=false}
+[10.1162/99608f92.db2a2554](https://doi.org/10.1162/99608f92.db2a2554)
 :::
 
 ## Background

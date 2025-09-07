@@ -21,8 +21,8 @@ title: 'Publishing Replication Packages: Insights from the Federal
   Reserve Bank of Kansas City'
 ---
 
-::: {.column-margin}
-[Published in HDSR 5.3](https://doi.org/10.1162/99608f92.aba61304)
+::: {.callout-note title="Published in HDSR 5.3" icon=false}
+[10.1162/99608f92.aba61304](https://doi.org/10.1162/99608f92.aba61304)
 :::
 
 ## Prioritizing Transparency[^1]

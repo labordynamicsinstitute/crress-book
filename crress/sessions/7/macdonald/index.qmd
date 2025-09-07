@@ -13,8 +13,8 @@ author:
 title: Open Data and Code at the Urban Institute
 ---
 
-::: {.column-margin}
-[Published in HDSR 5.3](https://doi.org/10.1162/99608f92.a631dfc5)
+::: {.callout-note title="Published in HDSR 5.3" icon=false}
+[10.1162/99608f92.a631dfc5](https://doi.org/10.1162/99608f92.a631dfc5)
 :::
 
 ## Background

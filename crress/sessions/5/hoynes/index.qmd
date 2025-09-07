@@ -5,8 +5,9 @@ author:
 title: 'Reproducibility in Economics: Status and Update '
 ---
 
-::: {.column-margin}
-[Published in HDSR 5.3](https://doi.org/10.1162/99608f92.80a1b88b)
+
+::: {.callout-note title="Published in HDSR 5.3" icon=false}
+[10.1162/99608f92.80a1b88b](https://doi.org/10.1162/99608f92.80a1b88b)
 :::
 
 This article provides a status update on reproducibility in the

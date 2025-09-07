@@ -16,8 +16,8 @@ author:
 title: Crisis? What Crisis?
 ---
 
-::: {.column-margin}
-[Published in HDSR 5.4](https://doi.org/10.1162/99608f92.151c41e3)
+::: {.callout-note title="Published in HDSR 5.4" icon=false}
+[10.1162/99608f92.151c41e3](https://doi.org/10.1162/99608f92.151c41e3)
 :::
 
 ## Background
