@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-type: software
+type: generic
 title: "Conference on Reproducibility and Replicability in Economics and Social Sciences (CRRESS) Book"
 abstract: "A book compiled from the Conference on Reproducibility and Replicability in Economics and Social Sciences (CRRESS) webinar series, featuring contributions from various researchers on reproducible research practices."
 authors:
@@ -10,6 +10,17 @@ authors:
   - family-names: "Vilhuber"
     given-names: "Lars"
     email: "lars.vilhuber@cornell.edu"
+preferred-citation:
+  type: edited-work
+  title: "Conference on Reproducibility and Replicability in Economics and Social Sciences (CRRESS) Book"
+  editors:
+    - family-names: "Michuda"
+      given-names: "Aleksandr"
+      email: "amichuda@gmail.com"
+    - family-names: "Vilhuber"
+      given-names: "Lars"
+      email: "lars.vilhuber@cornell.edu"
+  abstract: "A book compiled from the Conference on Reproducibility and Replicability in Economics and Social Sciences (CRRESS) webinar series, featuring contributions from various researchers on reproducible research practices."
 repository-code: "https://github.com/labordynamicsinstitute/crress-book"
 url: "https://labordynamicsinstitute.github.io/crress-book/"
 keywords:
