@@ -8,8 +8,6 @@ _site/
 # C extensions
 *.so
 
-crress/
-!cress/sessions/*/session*
 
 # Distribution / packaging
 .Python

@@ -1,0 +1,129 @@
+---
+title: "Teaching Reproducibility in the Classroom"
+author:
+- name: Julian Reif
+  affiliations: Gies College of Business, University of Illinois
+bibliography: export-data.bib
+abstract: |
+  The rise of sophisticated empirical research in the social sciences has brought new challenges to research transparency. Computational reproducibility, which checks if results can be duplicated using the same data and methods, often fails due to insufficient detailing or analytical mistakes. This essay emphasizes the importance of teaching reproducibility in the classroom at the graduate level and provides some suggestions for practical assignments that teach real-world reproducibility challenges. 
+---
+
+## Background
+
+The prominence of empirical research in the social sciences is rising
+due to advances in computing and the growing availability of detailed
+datasets. It is now common for researchers to run analyses using
+millions of data points derived from multiple data sources, often
+accomplished by writing many thousands of lines of code in multiple
+programming languages.
+
+With this increased complexity, the potential for opaque errors also
+grows. This concern is not just theoretical: one recent study revealed
+that the results from many published papers cannot be reproduced from
+the code and data provided by the original authors (Chang and Li,
+forthcoming). Part of the reason for this problem is that most
+researchers receive little or no training in how to create reproducible
+analyses. This essay delves into the importance of reproducibility and
+advocates for its inclusion in graduate-level education.
+
+## What is reproducibility?
+
+Reproducibility is a form of replicability. A replicable study yields
+the same results when it is repeated by other researchers (Molitor and
+Reif 2021). Replication can fail for a number of different reasons. For
+example, the original results may have happened by chance, or perhaps
+mistakes were made when analyzing the data. This essay focuses on
+computational reproducibility, a narrow type of replication that checks
+whether a researcher using the *same* data and methods as the original
+study can exactly reproduce the original results.
+
+There are many reasons why computational reproducibility may not be
+satisfied. Researchers might not provide sufficient details about how
+they processed and analyzed their data. If such decisions are not
+properly explained, researchers may be unable to reproduce the original
+results. In other cases, the original analysis may contain mistakes,
+e.g., using the wrong data or the wrong model, mishandling missing data,
+or copy/pasting the wrong results to a table.
+
+## Teaching reproducibility
+
+Creating a reproducible analysis helps reduce mistakes that emerge
+during data analysis, such as errors from manual tasks like copy/pasting
+numbers or reformatting data files. In addition, a well-documented,
+reproducible analysis offers a platform for others to learn from and
+build upon the research, an aspect highlighted in a recent essay by
+Molitor and Reif (2021).
+
+However, achieving computational reproducibility is difficult.
+Challenges range from poor organization, which can result in
+irreproducible intermediate files, to non-unique sorts in the
+researcher's code that cause results to change with each execution.
+Additional problems can stem from reliance on add-on packages, which
+evolve over time, or inconsistencies between different operating
+systems.
+
+Given the importance of computational reproducibility, there\'s a
+pressing need to incorporate it into the educational system.
+Unfortunately, reproducibility is rarely taught in the classroom. Some
+students learn how to write reproducible code from older students or
+their advisors, but that instruction is often incomplete. A better
+approach would be standardized instruction in a classroom environment.
+
+At what stage of the learning process should students be taught how to
+write reproducible code? It is not a necessary skill for all social
+science researchers---for example, a theoretical macroeconomist who
+spends little time analyzing large datasets does not need to learn
+detailed techniques of reproducibility. While the optimal point of
+learning may vary depending on the program, for many disciplines like
+economics it would be best incorporated into an applied data analysis
+course in the second year of graduate school. These courses, often
+labeled "applied econometrics," teach standard analytical tools like
+regression analysis and could be easily modified to include additional
+material on reproducibility. This additional material would teach
+students how to organize and document analyses, and impart technical
+skills specific to certain programming languages.
+
+Practical assignments are the best way to learn about reproducibility
+principles and techniques. Consider, for instance, an assignment where
+students are asked to download publicly available survey data and
+estimate the effect of state-level cigarette taxes on cigarette
+consumption using a difference-in-differences model. Alongside
+estimating a regression model and explaining their results, students
+could be asked to submit documented data and code that complies with the
+American Economic Association's requirements for a published paper.
+
+After submission, students can attempt to run each other's analyses.
+Many students will find it difficult to run code written by somebody
+else, especially if it was written in an unfamiliar programming
+language. This exercise provides a good simulation of the
+reproducibility challenges commonly faced by researchers, and will help
+the students write code that can be reproduced more easily.
+
+## Conclusion
+
+Computational reproducibility is essential for transparent and reliable
+research. Its importance not only lies in the accuracy and verification
+of research findings but also in fostering a community of learners who
+can effectively build upon each other's work.
+
+Including computational reproducibility in the curriculum is crucial for
+equipping future researchers with the skills necessary to traverse the
+increasingly complex field of data analysis. There are growing resources
+available for both teachers and students to enhance their understanding
+and application of computational reproducibility.[^1] These resources
+offer valuable guidance on general and technical issues associated with
+reproducibility. As empirical research becomes increasingly complex, the
+importance of practicing computational reproducibility will continue to
+grow.
+
+## References
+
+Chang, Andrew and Phillip Li, "Is Economics Research Replicable? Sixty
+Published Papers From Thirteen Journals Say 'Often Not'," *Critical
+Finance Review*, 2022, Vol. 11: No. 1, pp 185-206. https://doi.org/10.1561/104.00000053
+
+Molitor, David and Julian Reif. "Transparency in an Era of Data-Driven
+Policy: The Importance of Reproducible Research", *IGPA Policy
+Spotlight*, 14 October 2021.
+
+[^1]: This author's website provides one example: julianreif.com/guide

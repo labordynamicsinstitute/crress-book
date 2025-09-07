@@ -1,0 +1,11 @@
+---
+author:
+- affiliations: HEC Paris
+  name: Christophe Pérignon
+title: 'The Role of Third-Party Verification in Research Reproducibility'
+---
+
+::: {.callout-note title="Published in HDSR 6.2" icon=false}
+[99608f92.6d4bf9eb](https://doi.org/10.1162/99608f92.6d4bf9eb)
+:::
+

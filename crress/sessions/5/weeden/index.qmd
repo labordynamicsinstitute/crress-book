@@ -1,0 +1,11 @@
+---
+author:
+- affiliations: Department of Sociology, Cornell University
+  name: Kim Weeden
+title: 'Crisis? What Crisis? Sociology’s Slow Progress Toward Scientific Transparency'
+---
+
+::: {.callout-note title="Published in HDSR 5.4" icon=false}
+[99608f92.151c41e3](https://doi.org/10.1162/99608f92.151c41e3)
+:::
+

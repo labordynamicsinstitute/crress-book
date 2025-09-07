@@ -1,0 +1,11 @@
+---
+author:
+- affiliations: Federal Reserve Bank of Kansas City
+  name: Courtney R. Butler
+title: 'Publishing Replication Packages: Insights From the Federal Reserve Bank of Kansas City'
+---
+
+::: {.callout-note title="Published in HDSR 5.3" icon=false}
+[99608f92.aba61304](https://doi.org/10.1162/99608f92.aba61304)
+:::
+
