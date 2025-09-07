@@ -15,8 +15,8 @@ author:
 title: 'Reproducibility with confidential data: The experience of BPLIM'
 ---
 
-::: {.column-margin}
-[Published in HDSR 5.3](https://doi.org/10.1162/99608f92.54a00239)
+::: {.callout-note title="Published in HDSR 5.3" icon=false}
+[10.1162/99608f92.54a00239](https://doi.org/10.1162/99608f92.54a00239)
 :::
 
 ## Background

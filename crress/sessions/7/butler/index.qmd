@@ -1,11 +1,162 @@
 ---
+abstract: 'Research institutions play a vital role in generating
+  robust research findings. However, their role in disseminating the evidence underlying
+  those findings -- particularly for the purposes of replication -- is often less
+  clear. Many economic journals are beginning to provide guidance and infrastructure
+  for replication packages, but this is far from standard and does not account for
+  organizations that self-publish. Researchers seeking to share replication materials
+  must also navigate barriers such as controls around sensitive and proprietary data.
+  Thus, there is an open question about the degree to which research institutions
+  can and should participate in the publication of replication packages. The Federal
+  Reserve Bank of Kansas City has chosen to focus our resources on curation in order
+  to balance our mission-driven orientation, security considerations, and capacity
+  limitations. The rationale and resulting procedures described below provide one
+  possible model for involvement in the publication process, but it is based on a
+  unique combination of factors that influence our decision-making. Each organization''s
+  landscape and priorities will help dictate the most suitable configuration.'
 author:
 - affiliations: Federal Reserve Bank of Kansas City
-  name: Courtney R. Butler
-title: 'Publishing Replication Packages: Insights From the Federal Reserve Bank of Kansas City'
+  name: Courtney Butler
+title: 'Publishing Replication Packages: Insights from the Federal
+  Reserve Bank of Kansas City'
 ---
 
 ::: {.column-margin}
 [Published in HDSR 5.3](https://doi.org/10.1162/99608f92.aba61304)
 :::
 
+# Prioritizing Transparency[^1]
+
+The Federal Reserve Bank of Kansas City (FRB KC) operates with a mission
+to work in the public\'s interest by supporting economic and financial
+stability. Central to this mission is public and community engagement
+that emphasizes trust along with core values such as integrity and
+service. These characteristics point towards a strong organizational
+alignment with the foundational principles of replication, namely
+transparency.
+
+When FRB KC first began exploring reproducibility in earnest, our
+researchers were sharing data on an infrequent, ad-hoc basis with full
+responsibility for preparing and disseminating their own replication
+packages. However, growing library services and evolving journal
+expectations drove us to reconsider our approach. An internal data
+preservation initiative posed questions about what types of data we
+should preserve and, importantly, why. As we considered the historical
+and administrative purposes of research data, we also examined
+preservation policies and practices in economic journals to better
+understand the state of the field[^2]. There, we found a steadily
+increasing trend in journals requiring or strongly recommending the
+inclusion of replication packages as part of the publication process.
+
+With both our mission and industry trends in mind, FRB KC ultimately
+decided to prioritize a high degree of transparency in our approach to
+sharing replication packages. Our researchers' findings inform important
+economic policies and decision-making, and we determined that a focus on
+openness was one way FRB KC could tangibly demonstrate our ongoing
+commitment to integrity and public trust. Thus, we elected to establish
+a formal process to enable researchers to share underlying data to the
+extent possible.
+
+# The Data Release Process
+
+Researchers initiate the data release process, and the Research Library
+coordinates the subsequent steps. These steps include legal reviews of
+contracts and terms of use, information security assessments, and the
+creation of a comprehensive ReadMe document. The ReadMe document
+contains vital information such as licenses, file descriptions,
+instructions for usage, data source references, and fixity details to
+ensure long-term usability.
+
+Currently, our researchers are under no requirements to publish
+replication packages; it is up to their discretion to determine when to
+initiate the data release process. Those decisions are often driven by a
+range of motivations, including journal requirements, media inquiries,
+collegial requests, a desire to make research widely available, and
+more. However, not all data can be shared in every situation. Potential
+barriers include code and data complexity, contractual restrictions,
+privacy concerns, and many more.
+
+Despite these challenges, FRB KC confronts obstacles to sharing head-on.
+While many journal policies provide exceptions for situations involving
+proprietary or confidential data, FRB KC will often seek permission from
+data vendors on an ad-hoc basis. We also work to incorporate explicit
+language during contract negotiations that allows for
+replication-focused sharing. In this way, we have successfully shared
+data from a wide range of public and proprietary sources. Appropriate
+sharing is also sometimes facilitated through methods such as
+aggregation and synthetic data. However, there are still times when
+sharing is not feasible, and legal and ethical matters always outweigh
+desires for transparency.
+
+Once the review process is complete, researchers have a wide range of
+distribution options available. Replication packages may be posted on
+the FRB KC website, uploaded to an external repository, emailed to a
+requestor, submitted to a journal, or any other means of distribution
+needed. Research Library staff are available to help facilitate any
+desired publication method, but researchers can also manage distribution
+themselves.
+
+The data release process currently has a turnaround time of
+approximately three weeks from initiation to publication, but it can
+also be expedited when needed and may take additional time if issues
+arise. Defining and operationalizing this timeline has required ongoing
+relationship-building and negotiations with key stakeholder functions
+such as legal and information security. These discussions have centered
+on clearly defining researchers' needs and balancing them within the
+organization's risk mitigation framework and available resources.
+
+# Resourcing Considerations
+
+The curation process is completed entirely by internal staff since
+replication packages are considered public once they leave our internal
+systems. Whether posted publicly in a repository or emailed to a single
+well-known colleague, we recognize that we no longer have control over
+replication files once they have been distributed. As a result, our
+curation process ensures that all replication packages meet FRB KC's
+standards for sharing with external audiences before being distributed
+across any medium.
+
+At this time, we have elected to place less emphasis on the mechanisms
+for distribution so that we can instead focus our limited resources on
+curation for the reasons outlined above. As we explore future
+opportunities to expand publication and preservation practices,
+scalability and capacity remain crucial considerations. Every
+replication package requires time-consuming context gathering,
+stakeholder coordination, and tailored decision-making. Growing demand
+for this service requires that we continue to be thoughtful and
+intentional in deploying available resources.
+
+# Conclusion
+
+The Federal Reserve Bank of Kansas City\'s commitment to transparency
+and public trust has shaped our approach to publishing replication
+packages, and our transition from an informal, ad-hoc approach to a more
+structured process has helped promote secure, ethical, and effective
+data sharing. In this way, FRB KC research practices continue to
+contribute to the overall mission and values of the organization. This
+is especially important given that the Federal Reserve System is a
+long-lived institution. After more than 100 years of supporting economic
+and financial stability, trust in our research is intended to extend
+well into the future in addition to informing the audiences of today.
+
+As other research institutions consider their role in the publication of
+replication packages, the overall approach should be influenced by
+factors such as organizational goals, risk assessments, known
+impediments, and available capacity. Comprehensive curation and
+publication services are not appropriate for all institutions, and there
+are many external partners and resources available to supplement where
+needed. However, replication best practices are maturing steadily in the
+field of economics and will continue to normalize with time. Research
+institutions that proactively consider their role and expectations in
+this space will be much better positioned to maintain ongoing trust and
+integrity in their findings.
+
+[^1]: The views expressed herein are those of the author and do not
+    necessarily represent the views of the Federal Reserve Bank of
+    Kansas City or the Federal Reserve System.
+
+[^2]: Butler, C. R. & Currier, B. D. (2017). You can't replicate what
+    you can't find: Data preservation policies in economic journals.
+    Presentation to the International Association for Social Science
+    Information Services & Technology (IASSIST) Conference, Lawrence,
+    KS. Available at <http://doi.org/10.17605/OSF.IO/HF3DS>

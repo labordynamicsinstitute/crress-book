@@ -29,10 +29,10 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install pypandoc jupytext bibtexparser python-frontmatter
-      - name: Convert Files to Markdown
-        run: |
-          echo "Compiling and Converting Events"
-          python src/compile_events.py
+      # - name: Convert Files to Markdown
+      #   run: |
+      #     echo "Compiling and Converting Events"
+      #     python src/compile_events.py
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:

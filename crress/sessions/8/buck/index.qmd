@@ -1,11 +1,233 @@
 ---
+abstract: Despite an arguable reproducibility crisis in many scientific fields, some
+  have questioned the value of performing or funding direct replications of prior
+  studies. Their reasoning is that direct replications add little to our knowledge,
+  and that we should focus on performing new studies. I argue, to the contrary, that
+  direct replications are essential to scientific progress. Without direct replication,
+  we have much less ability to know which prior scientific findings are actually worth
+  trying to extend. As well, only direct replication can help us figure out puzzling
+  anomalies about which contextual factors are actually important to a given scientific
+  result.
 author:
 - affiliations: Good Science Project
   name: Stuart Buck
-title: 'We Should Do More Direct Replications in Science '
+title: We Should Do More Direct Replications in Science
 ---
+
 
 ::: {.column-margin}
 [Published in HDSR 6.3](https://doi.org/10.1162/99608f92.4eccc4433)
 :::
 
+# Introduction
+
+As we have seen over the past several years, there are problems with
+replicating the academic literature in many fields. The Reproducibility
+Project in Psychology
+[[found]{.underline}](https://www.science.org/doi/10.1126/science.aac4716)
+that only around 40% (give or take) of psychology experiments in top
+journals could truly be replicated. The Reproducibility Project in
+Cancer Biology [[similarly looked]{.underline}](https://www.cos.io/rpcb)
+at studies from top journals in that field, and found that the
+replication effect was only about 15% as big as the original effect (for
+example, if an original study found that giving cancerous mice a
+particular drug made them live 20 days long, a typical replication
+experiment found that they lived 3 days longer). Many pharmaceutical
+companies have said that they can barely replicate the academic
+literature, despite the fact that they have a huge incentive to carry
+forward successful experiments into further drug development (see
+[[here]{.underline}](https://www.nature.com/articles/nrd3439-c1) and
+[[here]{.underline}](https://www.nature.com/articles/483531a)). 
+
+Due to these results and many others, one [[current
+proposal]{.underline}](https://goodscience.substack.com/p/why-we-need-more-quality-control)
+is that science funders such as the National Institutes of Health (NIH)
+and the National Science Foundation (NSF) -- which will spend nearly
+\$60 billion this year, collectively -- should dedicate at least
+1/1000th of their budgets to doing more replication studies. Even just
+\$50 million a year would be transformative, and would ensure that we
+can have higher confidence in which results are reliable and worth
+carrying forward into future work. 
+
+Oddly enough, not everyone agrees that directly replicating studies is a
+high-value activity. Indeed, when I was at a [[National Academies
+workshop]{.underline}](https://www.nationalacademies.org/event/03-14-2023/experimentation-in-federal-funding)
+recently, someone fairly high up at NIH told me that they weren't in
+favor of doing more replications (it was a personal conversation, so I
+won't name and shame the individual in question). 
+
+The gist of this person's view:
+
+> "What do we really learn from trying to replicate experiments exactly?
+> No experiment is ever going to be perfect, and we'll find some
+> discrepancies, but who cares? What really matters is whether the
+> finding is robust in different contexts, so instead of funding exact
+> replications, we should just fund new work that extends it in a new
+> direction." 
+
+This NIH official isn't the only one who is skeptical of the value of
+replication. Back when the Reproducibility Project in Psychology was
+finishing up in 2014, Jason Mitchell (of the Social, Cognitive and
+Affective Neuroscience Lab at Harvard) famously wrote a short piece in
+2014 called "[[On the Evidentiary Emptiness of Failed
+Replications]{.underline}](https://bpb-us-e1.wpmucdn.com/websites.harvard.edu/dist/2/77/files/2022/05/Mitchell_failed_science_2014.pdf)." 
+
+Mitchell's major claim is that it can be very hard to elicit a positive
+effect, and there are many more ways to mess up than to get things
+right. Moreover, there is a ton of tacit and unwritten knowledge in the
+fields of psychology and neuroscience (and, one presumes, other fields
+as well). By analogy, he says, if you take a recipe and follow it to the
+letter, but you don't actually know what "medium heat" means or how to
+thinly slice an onion, you might not get the same results as an expert
+cook. But that doesn't mean the recipe is wrong, it just means that you
+don't have enough tacit knowledge and skill. Thus, he suggests, unless
+the replicators do everything perfectly, a "failed replication" is
+uninformative to the readers. 
+
+These points are all well taken. Nonetheless, I think that direct
+replication of experiments in psychology, medicine, biology, economics,
+and many other fields, is highly useful and often essential to make
+progress. This is true for several reasons. 
+
+First, by doing direct replications (or at least *trying* to do so), at
+a minimum you learn how good a field is at disclosing its methods such
+that anyone else would be able to build upon a prior study. 
+
+With the Reproducibility Project in Cancer Biology (caveat: I funded
+that while in philanthropy), we saw that literally [[zero percent of the
+time]{.underline}](https://elifesciences.org/articles/67995) was it even
+possible to ***try*** to replicate a study. 
+
+This wasn't because of tacit knowledge or because the original
+experimenters had some highly nuanced skill that the replicators lacked.
+Instead, it was because of obvious steps in the study that had to have
+happened, but that hadn't been documented very well at all. 
+
+For one example, "many original papers failed to report key descriptive
+and inferential statistics: the data needed to compute effect sizes and
+conduct power analyses was publicly accessible for just 4 of 193
+experiments. Moreover, despite contacting the authors of the original
+papers, we were unable to obtain these data for 68% of the experiments."
+In other words, they couldn't even figure out the magnitude of the
+effect they were supposed to be replicating. This is utterly basic
+information that ought to be included in any study.
+
+Perhaps worse, "none of the 193 experiments were described in sufficient
+detail in the original paper." In every single case, the team had to
+reach out to the original lab, which often was uncooperative or claimed
+not to recall what had actually happened in the study. For the 41% of
+the time that the original lab *was* cooperative, the answer was always,
+\"You'll need more materials and reagents than we mentioned.\" 
+
+That's why the entire project took longer, cost more, and completed
+fewer experiments than the project investigators had originally proposed
+when I funded this work while at the Laura and John Arnold Foundation.
+The quality of the literature was so low that it was impossible for
+anyone to fathom just how much effort and expense it would take even to
+*try* to replicate studies.
+
+Clearly, the scientific literature can do better than this. All the top
+scientific journals should commit to publishing a truly *comprehensive*
+description of methods for every relevant study (including video as much
+as possible), so that others can more readily understand exactly how
+studies were conducted. 
+
+Second, if a study *is* successfully replicated, then you learn that you
+can have more confidence in that line of work. With so much
+irreproducibility and even fraud, it\'s good to know what to trust. 
+
+For example, last year *Science* published a [[lengthy
+story]{.underline}](https://www.science.org/content/article/potential-fabrication-research-images-threatens-key-theory-alzheimers-disease)
+detailing how a [[prominent Alzheimer's
+study]{.underline}](https://www.nature.com/articles/nature04533) from
+2006 was likely fraudulent. To quote from the *Science* article: 
+
+> The authors "appeared to have composed figures by piecing together
+> parts of photos from different experiments," says Elisabeth Bik, a
+> molecular biologist and well-known forensic image consultant. "The
+> obtained experimental results might not have been the desired results,
+> and that data might have been changed to ... better fit a hypothesis."
+
+Nobel Laureate Thomas Sudhof (a neuroscientist at Stanford) told
+*Science* that the "immediate, obvious damage is wasted NIH funding and
+wasted thinking in the field because people are using these results as a
+starting point for their own experiments." 
+
+A systematic replication project in Alzheimer's might have turned up
+that fact long before now. As a result, researchers in that field would
+have a better idea as to which studies to trust, and where to try to
+explore further. 
+
+Third, there's always the possibility that a study can't be replicated
+very well or at all. Let's take a specific example from the Repro.
+Project in Cancer Biology. The [[bottom-line
+results]{.underline}](https://www.cos.io/rpcb) were that "50 replication
+experiments from 23 of the original papers were completed, generating
+data about the replicability of a total of 158 effects. . . .
+Replication effect sizes were 85% smaller on average than the original
+findings. 46% of effects replicated successfully on more criteria than
+they failed. Original positive results were half as likely to replicate
+successfully (40%) than original null results (80%)."
+
+Contrary to Harvard's Jason Mitchell and to the NIH official who spoke
+with me, I do think you can learn a lot from "failed" replications.
+There are at least three possibilities.
+
+a.  Yes, it is possible that the replication team just isn\'t very good,
+    > or doesn't have enough tacit knowledge, or made a simple mistake
+    > somewhere. That is possible. But it doesn't seem likely to be true
+    > in all cases. Indeed, the replicators might often be more skilled
+    > than the original investigators. And when we know that so many
+    > pharma companies can\'t replicate more than 1/3rd of the academic
+    > literature \-- despite highly-qualified teams who have every
+    > incentive to come up with a successful replication so that the
+    > program can move forward \-- it seems like we have bigger problems
+    > than \"replicator incompetence.\" 
+
+```{=html}
+<!-- -->
+```
+a.  Another possibility is that the original study can\'t be fully
+    > trusted for any number of reasons. Perhaps there was improper
+    > randomization, improper treatment of outliers, questionable use of
+    > statistics, publication bias, outright fraud, or just a fluke. To
+    > be sure, we don't *know* any of that just because of one failed
+    > replication. But we do have a reason to suspect that further
+    > investigation might turn up improper practices. 
+
+```{=html}
+<!-- -->
+```
+a.  Perhaps the original study and the replication are *both* correct,
+    > but there is some subtle difference in context, population, etc.,
+    > that explains the difference. Consider [[this classic
+    > paper]{.underline}](https://www.cell.com/cell-reports/fulltext/S2211-1247(14)00121-1?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2211124714001211%3Fshowall%3Dtrue#supplementaryMaterial),
+    > in which two labs on opposite coasts of the US tried to work
+    > together on an experiment characterizing breast cancer cells, but
+    > found themselves stymied for a year or so during which their
+    > results were inconsistent. By traveling to each others' labs, they
+    > finally figured out that, unbeknownst to anyone in the field, the
+    > rate of stirring a tissue sample could change the ultimate
+    > results. They would never have known that the rate of stirring was
+    > important unless they had been trying to exactly duplicate each
+    > other's results. Thus, it seems hugely important to know which
+    > seemingly insignificant factors can make a difference\--otherwise
+    > someone trying to extend a prior study might easily attribute a
+    > change in results to the wrong thing. 
+
+Thus, we have many reasons to think that direct replication of a
+scientific study (or of a company's data analysis) is actually
+important. A direct replication can expose flaws in how the original
+analysis was reported, can expose faulty practices (or even fraud), can
+help us know how to extend a prior study to new areas, and at a minimum
+can help us know which results are more robust and trustworthy.
+
+As to federal funding, my conclusion is this: Let's say that we spend X
+on new science and R&D every year. A system that puts 99.9% of X towards
+new research, and 0.1% of X on replication studies, will be more
+reliable, productive, innovative, and will lead to more pharmaceutical
+cures, than a system that funds the whole 100% of X on new research.
+
+**Disclosure Statement:** The author works for an organization (Good
+Science Project) dedicated to improving science, but has no financial
+conflicts of interest as to any topic discussed here.
