@@ -3,7 +3,6 @@ title: "Teaching Reproducibility in the Classroom"
 author:
 - name: Julian Reif
   affiliations: Gies College of Business, University of Illinois
-bibliography: export-data.bib
 abstract: |
   The rise of sophisticated empirical research in the social sciences has brought new challenges to research transparency. Computational reproducibility, which checks if results can be duplicated using the same data and methods, often fails due to insufficient detailing or analytical mistakes. This essay emphasizes the importance of teaching reproducibility in the classroom at the graduate level and provides some suggestions for practical assignments that teach real-world reproducibility challenges. 
 ---
