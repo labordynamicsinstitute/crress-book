@@ -15,4 +15,6 @@ This website is generated using Github Actions and uses a [workflow file](https:
 4. A quarto action that compiles the website based on the `_config.yml` file.
 
 
-Website can be found [here](https://labordynamicsinstitute.github.io/crress-book/)
+Website can be found [here](https://labordynamicsinstitute.github.io/crress-book/).
+
+Many of the contributions have been published in the [Harvard Data Science Review](https://hdsr.mitpress.mit.edu/reinforcing-rr).
